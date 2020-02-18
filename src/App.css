@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Cookie&display=swap");
 .App {
   text-align: center;
 }
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Cookie", cursive;
+  font-size: 40px;
 }
 
 .App-link {

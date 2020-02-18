@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Logo.png';
 import './App.css';
+
 
 function App() {
   return (
@@ -8,16 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Sorry for the inconvenience, the website is under construction.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and more
-        </a>
+       
       </header>
     </div>
   );
