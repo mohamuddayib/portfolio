@@ -1,20 +1,18 @@
-import React from 'react';
-import logo from './Logo.png';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Nav from "./Components/Nav/Nav";
+import { Component } from "react";
+import Fullscreen from "./Components/Sections/fullscreen/Fullscreen"
 
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Sorry for the inconvenience, the website is under construction.
-        </p>
-       
-      </header>
-    </div>
-  );
+class App extends Component{
+  render() {
+    return (
+      <div className="App">
+        <Nav />
+        <Fullscreen/>
+      </div>
+    );
+  }
 }
 
 export default App;
