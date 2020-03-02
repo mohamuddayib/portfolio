@@ -35,7 +35,7 @@
 }
 .Fullscreen button:hover {
   cursor: pointer;
-  transform: translateY(-px);
+  transform: translateY(-2px);
   transition: all 0.5s ease-in;
 }
 .Fullscreen img {
