@@ -26,6 +26,10 @@ class Nav extends Component {
               <a href="https://www.mohamud.dev/">About</a>
             </li>
             <li>
+              <a href="https://www.mohamud.dev/">Pricing</a>
+            </li>
+
+            <li>
               <a href="https://www.mohamud.dev/">Project</a>
             </li>
             <li>

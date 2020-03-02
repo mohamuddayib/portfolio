@@ -1,11 +1,41 @@
-.Fullscreen{
-    width:100%;
-    height: 100vh;
-    background: linear-gradient(to right, #8e2de2, #4a00e0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Fullscreen {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.Fullscreen p{
-    color: #ffff;
+.Fullscreen .content-container {
+  width: 400px;
+  margin-left: 20px;
+}
+.Fullscreen .content-container h2 {
+  color: #fff;
+}
+.Fullscreen .content-container p {
+  font-size: 0.9em;
+  color: #e8eff3;
+  line-height: 1.5rem;
+}
+.Fullscreen .content-container button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: transparent;
+  border: 1px solid #e8eff3;
+  border-radius: 30px;
+  color: #e8eff3;
+  font-size: 16px;
+}
+.Fullscreen button:hover{
+ cursor: pointer;
+ background-color: #fff;
+ color:#5F0EE0 ;
+
+}
+.Fullscreen img {
+  margin-top: 5em;
+  height: 500px;
+  width: 40em;
+  z-index: 4;
 }
