@@ -1,15 +1,23 @@
 .Fullscreen {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  /* background: linear-gradient(to right, #8e2de2, #4a00e0); */
+  overflow: hidden;
+  background-color: #6512e1;
+  background-image: url(./wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.Fullscreen .wrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 .Fullscreen .content-container {
   width: 400px;
   margin-left: 20px;
-  z-index: 1;
+  margin-top: 100px;
 }
 .Fullscreen .content-container h2 {
   color: #fff;
@@ -39,8 +47,11 @@
   transition: all 0.5s ease-in;
 }
 .Fullscreen img {
-  margin-top: 5em;
+  margin-top: 5.4em;
   height: 500px;
   width: 40em;
   z-index: 4;
+}
+.Fullscreen svg {
+  margin-top: -300px;
 }
