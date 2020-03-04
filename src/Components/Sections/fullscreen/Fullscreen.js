@@ -1,7 +1,6 @@
 import React from "react";
 import "./Fullscreen.css";
 import Developer from "./developer-illustration.webp";
-import Wave from "./wave.svg"
 
 const Fullscreen = () => {
   return (
@@ -16,10 +15,9 @@ const Fullscreen = () => {
           </p>
           <button>Request a quote</button>
         </div>
+        <div className="image-container">
         <img src={Developer} alt="" />
-      </div>
-      <div className="wav-container">
-      <img className="wave" src={Wave} alt="wave"/>
+        </div>
       </div>
     </div>
   );
