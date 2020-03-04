@@ -19,6 +19,9 @@ const Fullscreen = () => {
         <img src={Developer} alt="" />
         </div>
       </div>
+      <div className="mouse">
+        
+      </div>
     </div>
   );
 };

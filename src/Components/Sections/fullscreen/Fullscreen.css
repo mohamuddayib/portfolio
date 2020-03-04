@@ -11,7 +11,8 @@
   align-items: flex-start;
 }
 .Fullscreen .wrapper {
-  margin: 10px auto 0;
+  margin: 1px auto 0;
+  padding: 0;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -51,6 +52,6 @@
 }
 .Fullscreen img {
   margin-top: 6.4em;
-  height: 500px;
-  width: 40em;
+  height: 480px;
+  width: 600px;
 }

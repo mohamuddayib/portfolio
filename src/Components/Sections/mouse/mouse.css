@@ -1,0 +1,30 @@
+.Mouse {
+  left: 50%;
+  bottom: 5%;
+  position: fixed;
+  z-index: 10;
+  height: 42px;
+  width: 20px;
+  border: 2px solid #6f65ec;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.wheel {
+  animation-name: fadeOutDown;
+  animation-iteration-count: infinite;
+}
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
