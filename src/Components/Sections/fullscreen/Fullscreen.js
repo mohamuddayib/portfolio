@@ -1,6 +1,7 @@
 import React from "react";
 import "./Fullscreen.css";
 import Developer from "./developer-illustration.webp";
+import Mouse from "../mouse/mouse";
 
 const Fullscreen = () => {
   return (
@@ -19,9 +20,7 @@ const Fullscreen = () => {
         <img src={Developer} alt="" />
         </div>
       </div>
-      <div className="mouse">
-        
-      </div>
+      <Mouse/>
     </div>
   );
 };
