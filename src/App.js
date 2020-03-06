@@ -4,17 +4,16 @@ import Nav from "./Components/Nav/Nav";
 import { Component } from "react";
 import Fullscreen from "./Components/Sections/fullscreen/Fullscreen";
 
-class App extends Component{
+class App extends Component {
   render() {
     return (
       <div className="App">
         <Nav />
         <Fullscreen />
-        {/* other contents */}
-        <div>
-          <br />
-          <br/>
-        </div>
+        <section className="divider"></section>
+        {/* other components */}
+        <br />
+        <br />
       </div>
     );
   }

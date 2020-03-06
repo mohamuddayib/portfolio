@@ -2,3 +2,9 @@
   top: -60%;
   z-index: 3;
 }
+/* fixed line color bewllow the fullscreen */
+.App .divider {
+  height: 3px;
+  margin-top: -1px;
+  background-color: #ffffff;
+}
