@@ -10,6 +10,11 @@ class App extends Component{
       <div className="App">
         <Nav />
         <Fullscreen />
+        {/* other contents */}
+        <div>
+          <br />
+          <br/>
+        </div>
       </div>
     );
   }
