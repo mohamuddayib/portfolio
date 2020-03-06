@@ -45,9 +45,7 @@
     rgba(251, 146, 104, 0.856) 100%
   );
   transition: all 0.5s ease-in;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.014), 0 6.7px 5.3px rgba(0, 0, 0, 0.04),
-    0 12.5px 10px rgba(0, 0, 0, 0.01), 0 22.3px 17.9px rgba(0, 0, 0, 0.002),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.056);
+  box-shadow: rgba(255, 78, 110, 0.377) 0px 4px 24px;
   outline: none;
 }
 .Fullscreen button:hover {
