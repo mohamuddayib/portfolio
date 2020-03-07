@@ -40,16 +40,16 @@ class Nav extends Component {
         </nav>
         <div className="social-top">
           <a href="https://www.linkedin.com/" title="linkedIn">
-            <Icon path={mdiLinkedin} size={1} color="#ffff" />
+            <Icon path={mdiLinkedin} size={0.8} color="#ffff" />
           </a>
           <a href="https://www.linkedin.com/" title="Facebook">
-            <Icon path={mdiFacebook} size={1} color="#ffff" />
+            <Icon path={mdiFacebook} size={0.8} color="#ffff" />
           </a>
           <a href="https://www.linkedin.com/" title="Twitter">
-            <Icon path={mdiTwitter} size={1} color="#ffff" />
+            <Icon path={mdiTwitter} size={0.8} color="#ffff" />
           </a>
           <a href="https://www.linkedin.com/" title="Instagram">
-            <Icon path={mdiInstagram} size={1} color="#ffff" />
+            <Icon path={mdiInstagram} size={0.8} color="#ffff" />
           </a>
         </div>
         <Icon className="hamburger" path={mdiMenu} size={1.2} color="#ffff"/>

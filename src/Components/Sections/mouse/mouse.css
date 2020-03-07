@@ -13,18 +13,12 @@
   align-items: flex-start;
   cursor: pointer;
 }
-.wheel {
-  animation-name: fadeOutDown;
-  animation-iteration-count: infinite;
-}
-@keyframes fadeOutDown {
-  from {
-    opacity: 1;
+@media only screen and (max-width: 1024px) {
+  .Mouse {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    border: 2px solid #ffff;
   }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
+  
 }

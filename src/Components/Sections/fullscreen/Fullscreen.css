@@ -5,7 +5,7 @@
   background-image: url(./wave.svg);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-color: #5719fff1;
+  background-color: #7119fff1;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -65,7 +65,8 @@
     flex-direction: column-reverse;
     align-items: center;
     overflow: hidden;
-    padding:0;
+    padding: 0;
+    margin-top: 150px;
   }
   .Fullscreen .content-container {
     padding-right: 10px;
@@ -84,15 +85,12 @@
     padding-left: 10px;
     padding-top: 0;
     width: 85%;
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
   .Fullscreen img {
-    height: 250px;
-    width: 350px;
-    margin-top: 90px;
+    display: none;
   }
-  .Fullscreen button {
-    margin-top: 0px;
-
+  .content-container button {
+    margin-top: 200px;
   }
 }

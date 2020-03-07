@@ -51,6 +51,9 @@ header .brand {
   display: none;
 }
 @media only screen and (max-width: 1024px){
+  header{
+    background:#7926FF;
+  }
   header Nav{
     display: none;
   }
