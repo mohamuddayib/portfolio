@@ -58,3 +58,27 @@
   height: 480px;
   width: 600px;
 }
+
+/* Responsive website*/
+@media only screen and (max-width: 1024px) {
+  .Fullscreen .wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow: hidden;
+  }
+  .Fullscreen .content-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-container p {
+    display: inline-block;
+    text-align: center;
+  }
+  .Fullscreen img {
+    height: 450px;
+    width: 550px;
+  }
+}
