@@ -6,6 +6,7 @@ import { mdiLinkedin } from "@mdi/js";
 import { mdiFacebook } from "@mdi/js";
 import { mdiTwitter } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
+import { mdiMenu } from '@mdi/js';
 
 class Nav extends Component {
   render() {
@@ -51,6 +52,7 @@ class Nav extends Component {
             <Icon path={mdiInstagram} size={1} color="#ffff" />
           </a>
         </div>
+        <Icon className="hamburger" path={mdiMenu} size={1.2} color="#ffff"/>
       </header>
     );
   }

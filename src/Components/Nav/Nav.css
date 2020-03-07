@@ -44,11 +44,22 @@ header .brand {
   color: #fff;
 }
 .brand img {
-  height: 60px;
-  width: 62px;
+  height: 50px;
+  width: 52px;
+}
+.hamburger{
+  display: none;
 }
 @media only screen and (max-width: 1024px){
   header Nav{
     display: none;
+  }
+  header .hamburger{
+    display: block;
+    margin-right: 25px;
+  }
+  .brand img {
+    height: 40px;
+    width: 42px;
   }
 }
