@@ -47,8 +47,19 @@ header .brand {
   height: 50px;
   width: 52px;
 }
-.hamburger{
+.toggle{
+  margin-left: auto;
+  margin-right: 25px;
+  cursor: pointer;
   display: none;
+}
+.toggle div{
+ height: 3px;
+ width: 30px;
+ margin-top: 4px;
+ background-color: #fff;
+ border-radius: 30px;
+
 }
 @media only screen and (max-width: 1024px){
   header{
@@ -65,4 +76,11 @@ header .brand {
     height: 40px;
     width: 42px;
   }
+  .social-top{
+    display: none;
+  }
+  .toggle{
+    display: block;
+  }
+
 }
