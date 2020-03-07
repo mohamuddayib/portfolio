@@ -1,7 +1,5 @@
 import React from "react";
 import "./mouse.css";
-// import Icon from "@mdi/react";
-// import { mdiCheckboxBlankCircle } from "@mdi/js";
 import styled, { keyframes } from "styled-components";
 import { fadeOutDown } from "react-animations";
 
