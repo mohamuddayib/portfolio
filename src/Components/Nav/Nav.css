@@ -80,11 +80,17 @@ header nav {
     height: 40px;
     width: 42px;
   }
-  .social-top {
+  [class*="social-"] {
+    display: none !important;
+  }
+  .social-scroll{
     display: none;
   }
   .toggle {
     display: block;
+  }
+  .toggle-scroll div{
+    background: linear-gradient(135deg, rgb(255, 78, 111) 0%, rgb(251, 145, 104) 100%) !important;
   }
 }
 

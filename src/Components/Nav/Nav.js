@@ -23,6 +23,8 @@ class Nav extends Component {
       const LogoScroll = document.querySelector(".logoScroll");
       const scialDefault = document.querySelector(".social-default");
       const scialScroll = document.querySelector(".social-scroll");
+      const Toggle = document.querySelector(".toggle");
+
       menu.forEach(element => {
         if (isTop > 50) {
           element.classList.add("newMenu");
@@ -38,15 +40,15 @@ class Nav extends Component {
         LogoScroll.classList.add("logo-scroll");
         scialDefault.classList.add(".social-default-1");
         scialScroll.classList.add(".social-scroll-1");
-      }
-      if (isTop < 50) {
+        Toggle.classList.add("toggle-scroll");
+      } else {
         nav.classList.remove("scrolled");
         Logo.classList.remove("logo-default");
         LogoScroll.classList.remove("logo-scroll");
-        scialDefault.classList.remove(".social-default-1");
-        scialScroll.classList.remove(".social-scroll-1");
+        scialDefault.classList.remove("social-default-1");
+        scialScroll.classList.remove("social-scroll-1");
+        Toggle.classList.remove("toggle-scroll");
       }
-
     });
   }
   componentWillUnmount() {
