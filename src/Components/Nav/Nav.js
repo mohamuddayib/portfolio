@@ -6,12 +6,28 @@ import { mdiLinkedin } from "@mdi/js";
 import { mdiFacebook } from "@mdi/js";
 import { mdiTwitter } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
-import { mdiMenu } from '@mdi/js';
 
 class Nav extends Component {
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      const isTop = window.scrollY;
+      const nav = document.getElementById("nav");
+      if (isTop > 50) {
+        nav.classList.add("scrolled");
+      }
+      if (isTop < 50) {
+        nav.classList.remove("scrolled");
+      }
+
+      console.log(window.scrollY)
+    });
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll");
+  }
   render() {
     return (
-      <header className="Nav">
+      <header id="nav" className="Nav">
         <div className="brand">
           <a href="https://www.mohamud.dev/">
             <img src={Logo} alt="logo" />

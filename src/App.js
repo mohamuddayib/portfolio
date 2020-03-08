@@ -5,6 +5,8 @@ import { Component } from "react";
 import Fullscreen from "./Components/Sections/fullscreen/Fullscreen";
 
 class App extends Component {
+  
+
   render() {
     return (
       <div className="App">
