@@ -25,22 +25,23 @@ header nav {
 .Nav li {
   display: inline;
 }
-.Nav li a {
+.Nav li .menu {
   padding: 10px 25px;
   text-decoration: none;
   color: #ffff;
   font-size: 1.1em;
   transition: all 0.5s ease-in;
+  transition: none;
 }
 .Nav li a:hover {
   color: #ffff;
   transition: all 0.5s ease-in;
 }
-.Nav .social-top {
+.Nav [class*="social-"] {
   margin: 10px 40px 0 auto;
   padding: 0;
 }
-.social-top a {
+[class*="social-"] a {
   margin-left: 15px;
   color: #fff;
 }
@@ -60,6 +61,9 @@ header nav {
   margin-top: 4px;
   background-color: #fff;
   border-radius: 30px;
+}
+.Nav .logoScroll {
+  display: none;
 }
 @media only screen and (max-width: 1024px) {
   header {
@@ -84,11 +88,30 @@ header nav {
   }
 }
 
-/* add class when scrolled*/
 .scrolled {
-  background: linear-gradient(to right, #7926ff, #4a00e0);
+  background-color: #ffff;
   height: 60px;
   transition: all 0.3s ease;
   border-bottom: none;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+.Nav .social-scroll{
+  display: none;
+}
+.scrolled .newMenu {
+  color: #707070 !important;
+  transition: none;
+}
+.scrolled .logo-default {
+  display: none !important;
+}
+.scrolled .logo-scroll {
+  display: block !important;
+}
+
+.scrolled .social-default {
+  display: none;
+}
+.scrolled .social-scroll{
+ display: block;
 }
