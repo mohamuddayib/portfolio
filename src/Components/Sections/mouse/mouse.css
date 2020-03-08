@@ -24,7 +24,7 @@
   .Mouse {
     position: absolute;
     left: 50%;
-    bottom: 15%;
+    bottom: 8%;
     border: 2px solid #ffff;
   }
   .Mouse .circle {
