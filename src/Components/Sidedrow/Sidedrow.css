@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 70%;
+  width: 75%;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@
   margin: 30px;
 }
 .side-Drawer button{
-  padding: 10px 50px;
+  padding: 10px 70px;
   border: none;
   border-radius: 30px;
   font-family: "poppins", sans-serif;
