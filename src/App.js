@@ -3,17 +3,33 @@ import "./App.css";
 import Nav from "./Components/Nav/Nav";
 import { Component } from "react";
 import Fullscreen from "./Components/Sections/fullscreen/Fullscreen";
-
+import Sidedrow from "./Components/Sidedrow/Sidedrow";
+import Backdrop from "./Components/Backdrow/Backdrow";
 class App extends Component {
-  
+  state = {
+    sideDrowerOpen: false
+  };
 
+  SidrawerClickHandler = () => {
+    const currentState = this.sideDrowerOpen;
+    this.setState({ sideDrowerOpen: !currentState });
+  };
+  BackdrowerClickHandler = () => {
+    this.setState({ sideDrowerOpen: false });
+  };
   render() {
+    let Backdrower;
+    if (this.state.sideDrowerOpen) {
+      Backdrower = <Backdrop Close={this.BackdrowerClickHandler} />;
+    }
     return (
       <div className="App">
-        <Nav />
+        <Nav show={this.SidrawerClickHandler} />
         <Fullscreen />
         <section className="divider"></section>
         {/* other components */}
+        <Sidedrow />
+        {Backdrower}
         <br />
         <br />
       </div>

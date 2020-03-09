@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1024px) {
+  .Backdrow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+    background-color: rgba(255, 255, 255, 0.575);
+  }
+}

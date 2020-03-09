@@ -46,8 +46,8 @@ header nav {
   color: #fff;
 }
 .brand img {
-  height: 50px;
-  width: 52px;
+  height: 40px;
+  width: 40px;
 }
 .toggle {
   margin-left: auto;
@@ -78,7 +78,7 @@ header nav {
   }
   .brand img {
     height: 40px;
-    width: 42px;
+    width: 40px;
   }
   [class*="social-"] {
     display: none !important;

@@ -1,3 +1,7 @@
+.App {
+  height: 100%;
+  width: 100%;
+}
 .App svg {
   top: -60%;
   z-index: 3;
@@ -5,8 +9,6 @@
 /* fixed line color bewllow the fullscreen */
 .App .divider {
   height: 10px;
-  margin-top: -2px;
+  margin-top: -1.5px;
   background-color: #ffffff;
 }
-
-
