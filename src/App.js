@@ -13,14 +13,18 @@ class App extends Component {
   SidrawerClickHandler = () => {
     const currentState = this.sideDrowerOpen;
     this.setState({ sideDrowerOpen: !currentState });
+    console.log("click happened")
   };
   BackdrowerClickHandler = () => {
     this.setState({ sideDrowerOpen: false });
   };
   render() {
     let Backdrower;
+    let Sidedrower;
     if (this.state.sideDrowerOpen) {
-      Backdrower = <Backdrop Close={this.BackdrowerClickHandler} />;
+      Backdrower = <Backdrop close={this.BackdrowerClickHandler} />;
+      Sidedrower = <Sidedrow/>
+
     }
     return (
       <div className="App">
@@ -28,7 +32,8 @@ class App extends Component {
         <Fullscreen />
         <section className="divider"></section>
         {/* other components */}
-        <Sidedrow />
+        {/* <Sidedrow open={this.state.sideDrowerOpen} /> */}
+        {Sidedrower}
         {Backdrower}
         <br />
         <br />

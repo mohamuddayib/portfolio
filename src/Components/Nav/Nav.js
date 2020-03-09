@@ -122,7 +122,7 @@ class Nav extends Component {
             <Icon path={mdiInstagram} size={1} color="#A92EB9" />
           </a>
         </div>
-        <div className="toggle">
+        <div className="toggle" onClick={this.props.show}>
           <div></div>
           <div></div>
           <div></div>
