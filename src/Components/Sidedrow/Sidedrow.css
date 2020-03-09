@@ -17,6 +17,58 @@
   transition: all 0.5s ease;
 }
 
+.side-Drawer .slide-header {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.623);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.side-Drawer .logo-container {
+  margin-left: 20px;
+  margin-right: auto;
+  padding: 0;
+}
+.side-Drawer img {
+  height: 40px;
+  width: 40px;
+}
+.side-Drawer .close-icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.side-Drawer nav,ul{
+ margin:0;
+ padding:0;
+}
+.side-Drawer ul{
+  margin-top: 30px;
+  list-style-type: none;
+  text-align: center;
+  
+}
+.side-Drawer li{
+  width: 100%;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.side-Drawer .ctaContact{
+  text-align: center;
+  margin: 30px;
+}
+.side-Drawer button{
+  padding: 10px 50px;
+  border: none;
+  border-radius: 30px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(135deg, rgb(255, 78, 111) 0%, rgb(251, 145, 104) 100%);
+
+}
 /*  Disaper in desktop screen*/
 @media only screen and (min-width: 1024px) {
   .side-Drawer {

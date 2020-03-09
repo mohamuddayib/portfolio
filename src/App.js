@@ -28,7 +28,7 @@ class App extends Component {
         <Nav show={this.SidrawerClickHandler} />
         <Fullscreen />
         <section className="divider"></section>
-        <Sidedrow open={this.state.sideDrowerOpen} />
+        <Sidedrow open={this.state.sideDrowerOpen} close={this.BackdrowerClickHandler}/>
         {Backdrower}
         <br />
         <br />

@@ -14,7 +14,7 @@ header {
   transition: all 0.1s ease;
 }
 header .brand {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 header nav {
   margin-left: 10px;
@@ -68,6 +68,7 @@ header nav {
 @media only screen and (max-width: 1024px) {
   header {
     background: #7926ff;
+    border: none;
   }
   header nav {
     display: none;
