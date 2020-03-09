@@ -1,11 +1,17 @@
- .Backdrow {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 100;
+.Backdrow {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+/*  Disaper in desktop screen*/
+@media only screen and (min-width: 1024px) {
+  .Backdrow {
+    display: none !important;
   }
+}

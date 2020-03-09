@@ -1,25 +1,25 @@
-.sideDrawer {
-  /* margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 100; */
-
-  width: 100%;
+.side-Drawer {
+  margin: 0;
+  padding: 0;
   height: 100%;
+  width: 70%;
+  position: fixed;
   top: 0;
   left: 0;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  background-color: color coral;
-  z-index: 1000;
- 
+  background-color: #ffff;
+  z-index: 200;
+  transform: translate(-100%);
+  transition: all 0.5s ease;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.2);
 }
-/* .open {
-    transform: translateX(0);
-  } */
+.open {
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+
+/*  Disaper in desktop screen*/
+@media only screen and (min-width: 1024px) {
+  .side-Drawer {
+    display: none !important;
+  }
+}

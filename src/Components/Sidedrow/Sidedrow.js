@@ -1,13 +1,13 @@
 import React from "react";
-import "./Sidedrow";
+import "./Sidedrow.css";
 
 const Sidedrow = props => {
-  // let siderawClasses = "side-Drawer";
-  // if (props.open) {
-  //   siderawClasses = "side-Drawer open"
-  // }
+  let siderawClasses = "side-Drawer";
+  if (props.open) {
+    siderawClasses = "side-Drawer open";
+  }
   return (
-    <div className="sideDrawer ">
+    <div className={siderawClasses}>
       <div></div>
     </div>
   );

@@ -20,20 +20,15 @@ class App extends Component {
   };
   render() {
     let Backdrower;
-    let Sidedrower;
     if (this.state.sideDrowerOpen) {
       Backdrower = <Backdrop close={this.BackdrowerClickHandler} />;
-      Sidedrower = <Sidedrow/>
-
     }
     return (
       <div className="App">
         <Nav show={this.SidrawerClickHandler} />
         <Fullscreen />
         <section className="divider"></section>
-        {/* other components */}
-        {/* <Sidedrow open={this.state.sideDrowerOpen} /> */}
-        {Sidedrower}
+        <Sidedrow open={this.state.sideDrowerOpen} />
         {Backdrower}
         <br />
         <br />
