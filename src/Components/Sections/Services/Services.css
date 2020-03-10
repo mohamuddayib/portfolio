@@ -15,7 +15,7 @@
 }
 .Services [class*="service-"] {
   text-align: center;
-  width: 300px;
+  width: 290px;
   box-sizing: border-box;
   padding: 20px;
   border-radius: 6px;
@@ -32,11 +32,16 @@
   color: #707070;
 }
 
+.Services [class*="service-"]:hover {
+  transform: scale(1.02, 1.09);
+}
+
 @media only screen and (max-width: 1024px) {
   .Services .services-container {
     flex-wrap: wrap;
   }
   .Services [class*="service-"] {
     margin-top: 20px;
+    transition: all 1s ease-in;
   }
 }
