@@ -5,6 +5,9 @@ import { Component } from "react";
 import Fullscreen from "./Components/Sections/fullscreen/Fullscreen";
 import Sidedrow from "./Components/Sidedrow/Sidedrow";
 import Backdrop from "./Components/Backdrow/Backdrow";
+import Services from "./Components/Sections/Services/Services";
+
+
 class App extends Component {
   state = {
     sideDrowerOpen: false
@@ -30,7 +33,7 @@ class App extends Component {
         <section className="divider"></section>
         <Sidedrow open={this.state.sideDrowerOpen} close={this.BackdrowerClickHandler}/>
         {Backdrower}
-        <br />
+        <Services/>
         <br />
       </div>
     );

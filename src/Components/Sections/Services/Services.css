@@ -1,0 +1,19 @@
+.Services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.Services [class*="service-"]{
+    text-align: center;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.Services [class*="service-"] img{
+   height: 60px;
+   width: 60px;
+   cursor: pointer;
+}

@@ -17,7 +17,7 @@ const Sidedrow = props => {
       </div>
       <nav>
         <ul>
-          <li>Servives</li>
+          <li>Services</li>
           <li>About</li>
           <li>Pricing</li>
           <li>Projects</li>
