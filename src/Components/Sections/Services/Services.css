@@ -47,6 +47,9 @@
   .title-container p {
     width: 80%;
   }
+  .Services [class*="service-"]:hover {
+    transform: none;
+  }
 }
 
 @media only screen and (max-width: 425px) {
