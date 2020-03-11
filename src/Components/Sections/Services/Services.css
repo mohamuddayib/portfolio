@@ -44,4 +44,16 @@
     margin-top: 20px;
     transition: all 1s ease-in;
   }
+  .title-container p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .Services [class*="service-"] {
+    width: 90%;
+  }
+  .title-container p {
+    width: 90%;
+  }
 }
