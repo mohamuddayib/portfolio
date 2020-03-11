@@ -24,18 +24,15 @@ header nav {
 }
 .Nav li {
   display: inline;
+  color: #ffff;
 }
-.Nav li .menu {
+.Nav li a {
   padding: 10px 25px;
   text-decoration: none;
-  color: #ffff;
   font-size: 1.1em;
-  transition: all 0.5s ease-in;
   transition: none;
-}
-.Nav li a:hover {
-  color: #ffff;
-  transition: all 0.5s ease-in;
+  cursor: pointer;
+  transition: none;
 }
 .Nav [class*="social-"] {
   margin: 10px 40px 0 auto;
@@ -84,13 +81,13 @@ header nav {
   [class*="social-"] {
     display: none !important;
   }
-  .social-scroll{
+  .social-scroll {
     display: none;
   }
   .toggle {
     display: block;
   }
-  .toggle-scroll div{
+  .toggle-scroll div {
     background: linear-gradient(135deg, rgb(255, 78, 111) 0%, rgb(251, 145, 104) 100%) !important;
   }
 }
@@ -102,11 +99,11 @@ header nav {
   border-bottom: none;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
-.Nav .social-scroll{
+.Nav .social-scroll {
   display: none;
 }
 .scrolled .newMenu {
-  color: #707070 !important;
+  color: #777777;
   transition: none;
 }
 .scrolled .logo-default {
@@ -119,6 +116,11 @@ header nav {
 .scrolled .social-default {
   display: none;
 }
-.scrolled .social-scroll{
- display: block;
+.scrolled .social-scroll {
+  display: block;
+}
+/*active menu color*/
+
+.active {
+  color: #fd636c !important;
 }

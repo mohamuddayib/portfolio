@@ -3,6 +3,8 @@ import "./Sidedrow.css";
 import SlideLogo from "./Logo-scroll.png";
 import Icon from '@mdi/react';
 import { mdiClose } from '@mdi/js';
+import { Link } from "react-scroll";
+
 
 const Sidedrow = props => {
   let siderawClasses = "side-Drawer";
@@ -17,7 +19,16 @@ const Sidedrow = props => {
       </div>
       <nav>
         <ul>
-          <li>Services</li>
+          <li>
+          <Link
+    activeClass="active"
+    to="section1"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration= {500}
+>Services</Link>
+          </li>
           <li>About</li>
           <li>Pricing</li>
           <li>Projects</li>

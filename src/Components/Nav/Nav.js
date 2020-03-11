@@ -7,18 +7,14 @@ import { mdiLinkedin } from "@mdi/js";
 import { mdiFacebook } from "@mdi/js";
 import { mdiTwitter } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
-
-// const menu = document.querySelector("header li a");
-// menu.forEach(element => {
-
-// });
+import { Link } from "react-scroll";
 
 class Nav extends Component {
   componentDidMount() {
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY;
       const nav = document.getElementById("nav");
-      const menu = document.querySelectorAll("header li a");
+      const menu = document.querySelectorAll("header li");
       const Logo = document.querySelector(".logo");
       const LogoScroll = document.querySelector(".logoScroll");
       const scialDefault = document.querySelector(".social-default");
@@ -66,31 +62,67 @@ class Nav extends Component {
         {/* menu */}
         <nav>
           <ul>
-            <li>
-              <a className="menu" href="https://www.mohamud.dev/">
+            <li id="menu">
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu" href="https://www.mohamud.dev/">
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu" href="https://www.mohamud.dev/">
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
                 Pricing
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="menu" href="https://www.mohamud.dev/">
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
                 Project
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu" href="https://www.mohamud.dev/">
+              <Link
+                className="menu-link"
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

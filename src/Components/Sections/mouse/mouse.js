@@ -12,7 +12,14 @@ const BouncyDiv = styled.div`
 const Mouse = () => {
   return (
     <div className="Mouse-container">
-      <Link activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>
+      <Link
+        activeClass="active"
+        to="section1"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={700}
+      >
         <div className="Mouse">
           <BouncyDiv>
             <div className="circle"></div>
