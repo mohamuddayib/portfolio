@@ -33,7 +33,8 @@
 }
 
 .Services [class*="service-"]:hover {
-  transform: scale(1.02, 1.09);
+  transform: scale(1.04, 1.09);
+  transition: all 0.2s ease;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -42,7 +43,6 @@
   }
   .Services [class*="service-"] {
     margin-top: 20px;
-    transition: all 1s ease-in;
   }
   .title-container p {
     width: 80%;
@@ -51,7 +51,11 @@
     transform: none;
   }
 }
-
+@media only screen and (max-width: 579px) {
+  .Services [class*="service-"] {
+    width: 70%;
+  }
+}
 @media only screen and (max-width: 425px) {
   .Services [class*="service-"] {
     width: 90%;
