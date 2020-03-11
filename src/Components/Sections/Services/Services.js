@@ -7,7 +7,7 @@ import EmailIcon from "./HTML-Email.svg";
 
 const Services = props => {
   return (
-    <div className="Services">
+    <div className="Services" id="section1">
       <div className="title-container">
         <h2>Services</h2>
         <p>
