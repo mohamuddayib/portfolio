@@ -62,7 +62,7 @@ class Nav extends Component {
         {/* menu */}
         <nav>
           <ul>
-            <li id="menu">
+            <li>
               <Link
                 activeClass="active"
                 to="section1"
@@ -76,7 +76,7 @@ class Nav extends Component {
             </li>
             <li>
               <Link
-                activeClass="active"
+                activeClass=""
                 to="section1"
                 spy={true}
                 smooth={true}
