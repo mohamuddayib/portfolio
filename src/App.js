@@ -6,7 +6,7 @@ import Fullscreen from "./Components/Sections/fullscreen/Fullscreen";
 import Sidedrow from "./Components/Sidedrow/Sidedrow";
 import Backdrop from "./Components/Backdrow/Backdrow";
 import Services from "./Components/Sections/Services/Services";
-
+import About from "./Components/Sections/About/About";
 
 class App extends Component {
   state = {
@@ -16,7 +16,7 @@ class App extends Component {
   SidrawerClickHandler = () => {
     const currentState = this.sideDrowerOpen;
     this.setState({ sideDrowerOpen: !currentState });
-    console.log("click happened")
+    console.log("click happened");
   };
   BackdrowerClickHandler = () => {
     this.setState({ sideDrowerOpen: false });
@@ -31,9 +31,10 @@ class App extends Component {
         <Nav show={this.SidrawerClickHandler} />
         <Fullscreen />
         <section className="divider"></section>
-        <Sidedrow open={this.state.sideDrowerOpen} close={this.BackdrowerClickHandler}/>
+        <Sidedrow open={this.state.sideDrowerOpen} close={this.BackdrowerClickHandler} />
         {Backdrower}
-        <Services/>
+        <Services />
+        <About />
         <br />
       </div>
     );

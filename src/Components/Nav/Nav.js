@@ -77,7 +77,7 @@ class Nav extends Component {
             <li>
               <Link
                 activeClass=""
-                to="section1"
+                to="section"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -89,7 +89,7 @@ class Nav extends Component {
             <li>
               <Link
                 activeClass="active"
-                to="section1"
+                to="section"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -102,7 +102,7 @@ class Nav extends Component {
             <li>
               <Link
                 activeClass="active"
-                to="section1"
+                to="section"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -113,9 +113,8 @@ class Nav extends Component {
             </li>
             <li>
               <Link
-                className="menu-link"
                 activeClass="active"
-                to="section1"
+                to="section"
                 spy={true}
                 smooth={true}
                 offset={0}

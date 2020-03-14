@@ -119,8 +119,7 @@ header nav {
 .scrolled .social-scroll {
   display: block;
 }
-/*active menu color*/
 
 .active {
-  color: #fd636c !important;
+  color: #FE606D !important;
 }
