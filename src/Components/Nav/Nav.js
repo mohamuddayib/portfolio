@@ -75,21 +75,14 @@ class Nav extends Component {
               </Link>
             </li>
             <li>
-              <Link
-                activeClass=""
-                to="section"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={700}
-              >
+              <Link activeClass="" to="About" spy={true} smooth={true} offset={-50} duration={700}>
                 About
               </Link>
             </li>
             <li>
               <Link
                 activeClass="active"
-                to="section"
+                to="About"
                 spy={true}
                 smooth={true}
                 offset={0}

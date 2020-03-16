@@ -1,16 +1,29 @@
-.About{
+.About {
   margin-top: 50px;
 }
 .About .AboutRow-1 {
   display: flex;
   justify-content: space-around;
 }
-.AboutRow-1 img {
-  height: 500px;
-  width: 420px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+.About .image-container {
+  /* background-color: rgb(180, 219, 255); */
+  height: 520px;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./blob-shape.svg);
+  background-size: 34em;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translate(50px, -50px);
 }
+
+.AboutRow-1 img {
+  height: 480px;
+  width: 270px;
+}
+
 .AboutRow-1 p {
   color: #707070;
 }
