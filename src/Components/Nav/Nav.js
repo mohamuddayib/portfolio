@@ -75,13 +75,20 @@ class Nav extends Component {
               </Link>
             </li>
             <li>
-              <Link activeClass="" to="About" spy={true} smooth={true} offset={0} duration={700}>
+              <Link
+                activeClass="aboutMenu"
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
                 About
               </Link>
             </li>
             <li>
               <Link
-                activeClass="active"
+                activeClass="aboutMenu"
                 to="Pricing"
                 spy={true}
                 smooth={true}

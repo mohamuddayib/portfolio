@@ -121,5 +121,8 @@ header nav {
 }
 
 .active {
-  color: #FE606D !important;
+  color: #fe606d !important;
+}
+.aboutMenu {
+  color: #fe606d !important;
 }
