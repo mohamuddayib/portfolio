@@ -7,21 +7,21 @@
 }
 .About .image-container {
   /* background-color: rgb(180, 219, 255); */
-  height: 520px;
-  width: 480px;
+  height: 580px;
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   background-image: url(./blob-shape.svg);
-  background-size: 34em;
-  background-position: top;
+  background-size: 35em;
+  background-position: bottom center;
   background-repeat: no-repeat;
-  transform: translate(50px, -50px);
+  transform: translate(50px, -30px);
 }
 
 .AboutRow-1 img {
-  height: 480px;
-  width: 270px;
+  height: 500px;
+  width: 280px;
 }
 
 .AboutRow-1 p {
@@ -30,3 +30,37 @@
 .about-content {
   width: 50%;
 }
+.about-content .position{
+  font-style: italic;
+  margin-top: 0;
+  font-size: 0.9em;
+}
+.about-content h3{
+  margin-bottom:0 ;
+}
+/* skills */
+.About .skill {
+  width: 80%;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.About .title-skill {
+  display: flex;
+  justify-content: space-between;
+}
+.About .fill-container {
+  background-color: #ebebeb;
+  border-radius: 30px;
+  border: 4px solid #ebebeb;
+}
+.skill .fill-container .fill {
+  background: linear-gradient(to left, #9133fd, #5526ff);
+  padding: 4px;
+  border-radius: 30px;
+  width: 90%;
+}
+/* .skill .fill:hover{
+  width: 90%;
+  transition: all 2s ease;
+  cursor: pointer;
+} */
