@@ -13,14 +13,14 @@ const About = () => {
         <div className="image-container">
           <img src={Me} alt="mohamud" />
         </div>
-          <div className="about-content">
-            <h3>Mohamud Ali</h3>
-            <p className="position">Web developer and designer</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sit libero.
-              Voluptatem repellendus consequatur adipisci nulla, ipsa ab nemo alias, corporis neque
-              accusamus et debitis quisquam dignissimos vitae ratione. Tempora?
-            </p>
+        <div className="about-content">
+          <h3>Mohamud Ali</h3>
+          <p className="position">Web developer and designer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sit libero.
+            Voluptatem repellendus consequatur adipisci nulla, ipsa ab nemo alias, corporis neque
+            accusamus et debitis quisquam dignissimos vitae ratione. Tempora?
+          </p>
           <h4>Featured skills</h4>
           <ScrollAnimation animateIn="wobble">
             {/* HTML SKILL */}
@@ -83,8 +83,8 @@ const About = () => {
                 <div className="fill-wp"></div>
               </div>
             </div>
-            </ScrollAnimation>
-          </div>
+          </ScrollAnimation>
+        </div>
       </div>
       <div className="AboutRow-2">
         <div className="activities"></div>

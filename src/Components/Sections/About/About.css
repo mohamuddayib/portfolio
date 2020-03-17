@@ -84,3 +84,24 @@
   transition: all 2s ease;
   cursor: pointer;
 }
+/* responsive*/
+@media only screen and (max-width: 1024px) {
+  .About .AboutRow-1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .About .image-container {
+    height: 500px;
+    width: 450px;
+    transform: none;
+    background-size: 32em;
+
+  }
+  .About .about-content {
+    width: 90%;
+  }
+  .AboutRow-1 img {
+    height: 500px;
+    width: 280px;
+  }
+}
