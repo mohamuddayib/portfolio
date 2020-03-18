@@ -52,7 +52,7 @@
   background-color: #ebebeb;
   border-radius: 30px;
   border: 4px solid #ebebeb;
-  left: 100%;
+  width: 100%;
 }
 .About .percentage {
   margin-right: 45px;
@@ -94,7 +94,7 @@
     height: 500px;
     width: 450px;
     transform: none;
-    background-size: 32em;
+    background-size: cover;
 
   }
   .About .about-content {
@@ -103,5 +103,14 @@
   .AboutRow-1 img {
     height: 500px;
     width: 280px;
+  }
+  .About .skill {
+    width: 100%;
+    color: #707070;
+    margin-bottom: 20px;
+  }
+  .wobble{
+    margin:0;
+    padding: 0;
   }
 }
