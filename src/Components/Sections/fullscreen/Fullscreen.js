@@ -29,7 +29,7 @@ class Fullscreen extends Component {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem at aliquid amet
               aperiam facilis explicabo aspernatur assumenda dicta nihil perferendis.
             </p>
-            <button onClick={this.showPopupHandler}>Request a quote</button>
+            <button onClick={this.showPopupHandler}>Request a Quote</button>
           </div>
           <div className="image-container">
             <img src={Developer} alt="" />
