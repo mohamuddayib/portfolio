@@ -12,9 +12,48 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script
-      src="//code.tidio.co/r4u2nvzb3oqqvo4g8yq5wwidswqkls6v.js"
-      async
-    ></script>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="number" name="number" />
+      <input type="text" name="company"/>
+      <select name="country">
+        <option>Select Country</option>
+        <option>Somalia</option>
+        <option>Djibouti</option>
+        <option>Kenya</option>
+        <option>Ethopia</option>
+        <option>Sudan</option>
+        <option>Uganda</option>
+        <option>South Africa</option>
+        <option>Turkey</option>
+        <option>Yamen</option>
+        <option>Saudi Arabia</option>
+        <option>United Arab Emirates</option>
+        <option>United States</option>
+        <option>United Kingdom</option>
+        <option>Canada</option>
+        <option>Australia</option>
+        <option>Netherlands</option>
+      </select>
+      <select name="Amount">
+        <option> Select Amount</option>
+        <option> Below $200</option>
+        <option> $200 - $400</option>
+        <option> $400 - $600</option>
+        <option> $600 - $800</option>
+        <option> $800 - $1000</option>
+        <option> Above $1000</option>
+      </select>
+      <select name="Duration">
+        <option> Select days</option>
+        <option> 4 days</option>
+        <option> 7 days</option>
+        <option> 10 days</option>
+        <option> 14 days</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
+    <script src="//code.tidio.co/r4u2nvzb3oqqvo4g8yq5wwidswqkls6v.js" async></script>
   </body>
 </html>

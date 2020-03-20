@@ -15,31 +15,31 @@ const Popup = props => {
           title="Close"
           size={1.1}
         />
-        <form action="https://mohamud.dev/success"name="contact" method="POST" data-netlify="true" >
+        <form action="https://mohamud.dev/success" name="contact" method="POST" data-netlify="true">
           <div>
             <span>
-              <label>Name</label>
-              <input type="text" />
+              <label htmlFor="name">Name</label>
+              <input type="text" name="name" />
             </span>
             <span>
-              <label>Email</label>
-              <input type="email" />
+              <label htmlFor="email">Email</label>
+              <input type="email" name="email" />
             </span>
           </div>
           <div>
             <span>
-              <label>Phone Number</label>
-              <input type="number" />
+              <label htmlFor="number">Phone Number</label>
+              <input type="number" name="number" />
             </span>
             <span>
-              <label>Company Name (Optional)</label>
-              <input type="text" />
+              <label htmlFor="company">Company Name (Optional)</label>
+              <input type="text" name="company" />
             </span>
           </div>
           <div>
             <span>
-              <label>Country</label>
-              <select>
+              <label htmlFor="country">Country</label>
+              <select name="country">
                 <option>Select Country</option>
                 <option>Somalia</option>
                 <option>Djibouti</option>
@@ -71,8 +71,8 @@ const Popup = props => {
           </div>
           <div>
             <span>
-              <label>Estimated Budget</label>
-              <select>
+              <label htmlFor="Amount">Estimated Budget</label>
+              <select name="Amount">
                 <option> Select Amount</option>
                 <option> Below $200</option>
                 <option> $200 - $400</option>
@@ -83,8 +83,8 @@ const Popup = props => {
               </select>
             </span>
             <span>
-              <label>Duration of project</label>
-              <select>
+              <label htmlFor="Duration">Duration of project</label>
+              <select name="Duration">
                 <option> Select days</option>
                 <option> 4 days</option>
                 <option> 7 days</option>
@@ -95,8 +95,8 @@ const Popup = props => {
           </div>
           <div className="textarea">
             <span>
-              <label>Message</label>
-              <textarea></textarea>
+              <label htmlFor="message">Message</label>
+              <textarea name="message"></textarea>
               <button type="submit">
                 Send Message <Icon path={mdiTelegram} size={0.7} color="#ffff" className="send" />
               </button>
