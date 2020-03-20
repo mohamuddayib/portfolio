@@ -2,7 +2,7 @@ import React from "react";
 import "./Popup.css";
 import Icon from "@mdi/react";
 import { mdiClose } from "@mdi/js";
-import { mdiSend } from '@mdi/js';
+import { mdiTelegram } from "@mdi/js";
 
 const Popup = props => {
   return (
@@ -15,7 +15,8 @@ const Popup = props => {
           title="Close"
           size={1.1}
         />
-        <form action="">
+        <form method="POST" data-netlify="true">
+          >
           <div>
             <span>
               <label>Name</label>
@@ -29,7 +30,7 @@ const Popup = props => {
           <div>
             <span>
               <label>Phone Number</label>
-              <input type="number"/>
+              <input type="number" />
             </span>
             <span>
               <label>Company Name (Optional)</label>
@@ -40,6 +41,7 @@ const Popup = props => {
             <span>
               <label>Country</label>
               <select>
+                <option>Select Country</option>
                 <option>Somalia</option>
                 <option>Djibouti</option>
                 <option>Kenya</option>
@@ -96,7 +98,9 @@ const Popup = props => {
             <span>
               <label>Message</label>
               <textarea></textarea>
-              <button type="submit">Send Message</button>
+              <button type="submit">
+                Send Message <Icon path={mdiTelegram} size={0.7} color="#ffff" className="send" />
+              </button>
             </span>
           </div>
         </form>
