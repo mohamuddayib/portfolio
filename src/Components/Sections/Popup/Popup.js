@@ -16,7 +16,6 @@ const Popup = props => {
           size={1.1}
         />
         <form method="POST" data-netlify="true">
-          >
           <div>
             <span>
               <label>Name</label>
