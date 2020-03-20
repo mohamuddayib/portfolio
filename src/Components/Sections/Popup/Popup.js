@@ -15,7 +15,7 @@ const Popup = props => {
           title="Close"
           size={1.1}
         />
-        <form method="POST" data-netlify="true">
+        <form action="http://mohamud.dev/success"  method="POST" data-netlify="true">
           <div>
             <span>
               <label>Name</label>
@@ -27,7 +27,7 @@ const Popup = props => {
             </span>
           </div>
           <div>
-            <span>
+            <span >
               <label>Phone Number</label>
               <input type="number" />
             </span>
@@ -93,7 +93,7 @@ const Popup = props => {
               </select>
             </span>
           </div>
-          <div>
+          <div className="textarea">
             <span>
               <label>Message</label>
               <textarea></textarea>

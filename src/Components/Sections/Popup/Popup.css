@@ -82,17 +82,18 @@
 .Popup form label {
   display: block;
 }
-.Popup form div {
+.Popup form div:not(.textarea) {
   display: flex;
   margin-top: 10px;
+  justify-content: space-between;
 }
 .Popup form span {
-  flex: 1;
+  width: 49%;
   padding: 0;
 }
 .Popup input,
 select {
-  width: 95%;
+  width: 99.5%;
   padding: 6px 0px;
   border: 1px solid #cccc;
   border-radius: 2px;
@@ -108,7 +109,7 @@ select {
 }
 
 .Popup textarea {
-  width: 96.5%;
+  width: 99%;
   height: 100px;
   border: 1px solid #cccc;
 }
