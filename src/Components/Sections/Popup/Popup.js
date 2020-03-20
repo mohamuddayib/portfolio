@@ -16,24 +16,25 @@ const Popup = props => {
           size={1.1}
         />
         <form action="https://mohamud.dev/success" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <span>
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" />
+              <input type="text" name="name" placeholder="Your Name" />
             </span>
             <span>
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" />
+              <input type="email" name="email" placeholder ="Your Email"/>
             </span>
           </div>
           <div>
             <span>
               <label htmlFor="number">Phone Number</label>
-              <input type="number" name="number" />
+              <input type="number" name="number" placeholder="Your Phone Number"/>
             </span>
             <span>
               <label htmlFor="company">Company Name (Optional)</label>
-              <input type="text" name="company" />
+              <input type="text" name="company" placeholder="Your Company Name"/>
             </span>
           </div>
           <div>
@@ -96,7 +97,7 @@ const Popup = props => {
           <div className="textarea">
             <span>
               <label htmlFor="message">Message</label>
-              <textarea name="message"></textarea>
+              <textarea name="message" placeholder="Enter your Message here"></textarea>
               <button type="submit">
                 Send Message <Icon path={mdiTelegram} size={0.7} color="#ffff" className="send" />
               </button>
