@@ -15,7 +15,7 @@ const Popup = props => {
           title="Close"
           size={1.1}
         />
-        <form action="https://mohamud.dev/success" method="POST" data-netlify="true">
+        <form action="https://mohamud.dev/success"name="contact" method="POST" data-netlify="true" >
           <div>
             <span>
               <label>Name</label>
