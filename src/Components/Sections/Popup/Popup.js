@@ -15,7 +15,7 @@ const Popup = props => {
           title="Close"
           size={1.1}
         />
-        <form name="contact" method="POST" >
+        <form name="contact" method="POST" action="/success">
           <input type="hidden" name="form-name" value="contact" />
           <div>
             <span>
@@ -24,17 +24,17 @@ const Popup = props => {
             </span>
             <span>
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" placeholder ="Your Email"/>
+              <input type="email" name="email" placeholder="Your Email" />
             </span>
           </div>
           <div>
             <span>
               <label htmlFor="number">Phone Number</label>
-              <input type="number" name="number" placeholder="Your Phone Number"/>
+              <input type="number" name="number" placeholder="Your Phone Number" />
             </span>
             <span>
               <label htmlFor="company">Company Name (Optional)</label>
-              <input type="text" name="company" placeholder="Your Company Name"/>
+              <input type="text" name="company" placeholder="Your Company Name" />
             </span>
           </div>
           <div>
