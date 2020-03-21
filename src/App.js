@@ -40,7 +40,7 @@ class App extends Component {
           <About />
 
           <Switch>
-            <Route path="/success" component={Sucess} />
+            <Route path="/thank-you" component={Sucess} />
           </Switch>
           <br />
         </div>
