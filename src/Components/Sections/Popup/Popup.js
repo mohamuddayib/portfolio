@@ -8,7 +8,7 @@ import { Component } from "react";
 
 class Popup extends Component {
   submitForm(e) {
-    e.preventDefault();
+    // e.preventDefault();
     this.props.history.push("/thank-you");
   }
 
