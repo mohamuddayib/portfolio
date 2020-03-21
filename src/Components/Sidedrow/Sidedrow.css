@@ -62,13 +62,20 @@ ul {
   margin: 30px;
 }
 .side-Drawer button {
+  margin: 1px auto 0;
+  outline: none;
   padding: 10px 70px;
   border: none;
   border-radius: 30px;
   font-family: "poppins", sans-serif;
   font-size: 16px;
   color: #fff;
-  background: linear-gradient(135deg, rgb(255, 78, 111) 0%, rgb(251, 145, 104) 100%);
+  cursor: pointer;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 78, 111) 0%,
+    rgb(251, 145, 104) 100%
+  );
 }
 /*  Disaper in desktop screen*/
 @media only screen and (min-width: 1024px) {

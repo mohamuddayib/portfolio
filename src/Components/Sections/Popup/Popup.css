@@ -94,18 +94,19 @@
 .Popup input,
 select {
   width: 99.5%;
-  padding: 6px 0px;
+  padding: 6px;
   border: 1px solid #cccc;
   border-radius: 2px;
   color: #525252;
+  box-sizing: border-box;
 }
 .Popup select:focus {
   outline: none;
-  box-shadow: 0 0 0 1.5px rgba(0, 166, 255, 0.616);
+  box-shadow: 0 0 0 1.5px rgba(0, 119, 255, 0.616);
 }
 .Popup input:focus {
   outline: none;
-  box-shadow: 0 0 0 1.5px rgba(0, 166, 255, 0.616);
+  box-shadow: 0 0 0 1.5px  rgba(0, 119, 255, 0.616);
 }
 
 .Popup textarea {
@@ -115,7 +116,7 @@ select {
 }
 .Popup textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 1.5px rgba(0, 166, 255, 0.616);
+  box-shadow: 0 0 0 1.5px  rgba(0, 119, 255, 0.616);
 }
 .Popup textarea,
 button {

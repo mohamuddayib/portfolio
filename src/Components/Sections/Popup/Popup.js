@@ -98,11 +98,9 @@ const Popup = props => {
             <span>
               <label htmlFor="message">Message</label>
               <textarea name="message" placeholder="Enter your Message here"></textarea>
-              <a href="https://www.mohamud.dev/success">
                 <button type="submit" name="submit">
                   Send Message <Icon path={mdiTelegram} size={0.7} color="#ffff" className="send" />
                 </button>
-              </a>
             </span>
           </div>
         </form>
