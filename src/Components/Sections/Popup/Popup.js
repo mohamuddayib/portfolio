@@ -7,9 +7,10 @@ import { withRouter } from "react-router-dom";
 import { Component } from "react";
 
 class Popup extends Component {
+
   submitForm(e) {
-    e.preventDefault();
-    this.props.history.push("/thank-you");
+    // e.preventDefault();
+    this.props.history.push("/success");
   }
 
   render() {
