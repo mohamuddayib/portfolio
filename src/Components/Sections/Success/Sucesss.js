@@ -13,7 +13,7 @@ const Sucess = () => {
         <Icon path={mdiCheckboxMarkedCircle} size={1.5} color="#20C98B" className="marcked" />
         <h2>Your Submission was rescieved</h2>
         <p>Thanks for the message</p>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/success" style={{ textDecoration: "none" }}>
           <span> Back to Home </span>
         </Link>
       </div>
