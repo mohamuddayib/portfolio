@@ -8,7 +8,7 @@ import { Component } from "react";
 
 class Popup extends Component {
   submitForm(e) {
-    e.preventDefault();
+    // e.preventDefault();
     this.props.history.push("/thank-you");
   }
 
@@ -23,7 +23,7 @@ class Popup extends Component {
             title="Close"
             size={1.1}
           />
-          <form name="contact" method="POST" onSubmit={this.submitForm.bind(this)} action="/thank-you">
+          <form name="contact" method="POST" onSubmit={this.submitForm.bind(this)}>
             <input type="hidden" name="form-name" value="contact" />
             <div>
               <span>
