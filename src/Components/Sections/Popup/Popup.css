@@ -15,7 +15,8 @@
   height: 75%;
   background-color: #ffff;
   border-radius: 5px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .Popup .close-icon {
   cursor: pointer;
@@ -106,7 +107,7 @@ select {
 }
 .Popup input:focus {
   outline: none;
-  box-shadow: 0 0 0 1.5px  rgba(0, 119, 255, 0.616);
+  box-shadow: 0 0 0 1.5px rgba(0, 119, 255, 0.616);
 }
 
 .Popup textarea {
@@ -116,7 +117,7 @@ select {
 }
 .Popup textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 1.5px  rgba(0, 119, 255, 0.616);
+  box-shadow: 0 0 0 1.5px rgba(0, 119, 255, 0.616);
 }
 .Popup textarea,
 button {
@@ -149,4 +150,16 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 input[type="number"] {
   -moz-appearance: textfield;
+}
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  .Popup .formWrapper {
+    margin: 1px auto 0;
+    width: 90%;
+    height: 70%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
 }
