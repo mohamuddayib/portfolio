@@ -15,7 +15,7 @@ const Popup = props => {
           title="Close"
           size={1.1}
         />
-        <form name="contact" method="POST" action="/pages/sucess.html">
+        <form name="contact" method="POST" action="/success/">
           <input type="hidden" name="form-name" value="contact" />
           <div>
             <span>
