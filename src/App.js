@@ -9,6 +9,7 @@ import Services from "./Components/Sections/Services/Services";
 import About from "./Components/Sections/About/About";
 import Sucess from "./Components/Sections/Success/Sucesss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Pricing from "./Components/Sections/Pricing/Pricing"
 
 class App extends Component {
   state = {
@@ -38,7 +39,7 @@ class App extends Component {
           {Backdrower}
           <Services />
           <About />
-
+          <Pricing/>
           <Switch>
             <Route path="/success" component={Sucess} />
           </Switch>
