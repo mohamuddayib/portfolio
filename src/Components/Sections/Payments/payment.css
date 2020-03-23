@@ -5,17 +5,83 @@
   height: 100%;
   width: 100%;
   z-index: 500;
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.Payment section {
+  margin: 60px auto 0;
+  width: 40%;
+  background-color: #fff;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  overflow-y: scroll;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 1 ease;
+  text-align: center;
 }
-.Payment div{
-    margin-top: 50px;
-    width: 80%;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-   
+.Payment section div {
+  width: 100%;
+}
+.Payment section {
+  animation-duration: 0.75s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.Payment::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.Payment::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: transparent;
+}
+.Payment .payment-close{
+  float: right;
+  cursor: pointer;
+  margin: 10px 10px 0 0;
 }

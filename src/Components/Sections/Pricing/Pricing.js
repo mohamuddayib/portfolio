@@ -2,6 +2,8 @@ import React from "react";
 import "./Pricing.css";
 import Icon from "@mdi/react";
 import { mdiCheckboxMarkedCircleOutline } from "@mdi/js";
+import { Link } from "react-router-dom";
+
 
 const Pricing = () => {
   return (
@@ -48,7 +50,9 @@ const Pricing = () => {
               consectetur adipisicing elit
             </li>
           </ul>
-          <button>Buy now</button>
+          <Link to="/standard-payment" style={{ textDecoration: "none" }}>
+            <button>Buy now</button>
+          </Link>
         </div>
         <div className="pricing-two">
           <h2>Popular</h2>
@@ -83,7 +87,9 @@ const Pricing = () => {
               consectetur adipisicing elit
             </li>
           </ul>
-          <button>Buy now</button>
+          <Link to="/popular-payment" style={{ textDecoration: "none" }}>
+            <button>Buy now</button>
+          </Link>
         </div>
         <div className="pricing-three">
           <h2>Premium</h2>
@@ -118,7 +124,9 @@ const Pricing = () => {
               consectetur adipisicing elit
             </li>
           </ul>
-          <button>Buy now</button>
+          <Link to="/premium-payment" style={{ textDecoration: "none" }}>
+            <button>Buy now</button>
+          </Link>
         </div>
       </div>
       {/* </ScrollAnimation> */}

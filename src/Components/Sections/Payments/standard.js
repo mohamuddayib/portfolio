@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import "./payment.css";
 import { PayPalButton } from "react-paypal-button-v2";
+import Icon from "@mdi/react";
+import { mdiClose } from "@mdi/js";
+import { Link } from "react-router-dom";
 
 class Standard extends Component {
   render() {
     return (
       <div className="Payment">
-        <div>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <Icon className="payment-close" path={mdiClose} size={1.1} color="#ffff" />
+        </Link>
+        <section>
           <PayPalButton
             amount="199"
             // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
@@ -22,7 +28,7 @@ class Standard extends Component {
               });
             }}
           />
-        </div>
+        </section>
       </div>
     );
   }

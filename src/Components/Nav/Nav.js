@@ -92,7 +92,7 @@ class Nav extends Component {
                 to="Pricing"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={80}
                 duration={700}
               >
                 Pricing

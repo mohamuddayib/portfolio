@@ -45,9 +45,9 @@ class App extends Component {
           <Pricing />
           <Switch>
             <Route path="/success" component={Sucess} />
-            <Route path="/standard" component={Standard} />
-            <Route path="/Popular" component={Popular} />
-            <Route path="/Premium" component={Premium} />
+            <Route path="/standard-payment" component={Standard} />
+            <Route path="/popular-payment" component={Popular} />
+            <Route path="/Premium-payment" component={Premium} />
           </Switch>
           <br />
         </div>
