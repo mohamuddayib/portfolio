@@ -9,7 +9,10 @@ import Services from "./Components/Sections/Services/Services";
 import About from "./Components/Sections/About/About";
 import Sucess from "./Components/Sections/Success/Sucesss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Pricing from "./Components/Sections/Pricing/Pricing"
+import Pricing from "./Components/Sections/Pricing/Pricing";
+import Standard from "./Components/Sections/Payments/standard";
+import Popular from "./Components/Sections/Payments/popular";
+import Premium from "./Components/Sections/Payments/premium";
 
 class App extends Component {
   state = {
@@ -39,9 +42,12 @@ class App extends Component {
           {Backdrower}
           <Services />
           <About />
-          <Pricing/>
+          <Pricing />
           <Switch>
             <Route path="/success" component={Sucess} />
+            <Route path="/standard" component={Standard} />
+            <Route path="/Popular" component={Popular} />
+            <Route path="/Premium" component={Premium} />
           </Switch>
           <br />
         </div>
