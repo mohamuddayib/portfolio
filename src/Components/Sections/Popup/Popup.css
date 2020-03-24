@@ -15,8 +15,20 @@
   height: 75%;
   background-color: #ffff;
   border-radius: 5px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  scrollbar-color: rgba(118, 116, 255, 0.705) #c2d2e4;
+  scrollbar-width: thin;
+}
+.formWrapper::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgba(118, 116, 255, 0.705)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgba(118, 116, 255, 0.705))
+  );
 }
 .Popup .close-icon {
   cursor: pointer;
@@ -151,6 +163,14 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+.formWrapper .formWrapper::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.Popup .formWrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
 /* Responsive */
 @media only screen and (max-width: 1024px) {
   .Popup .formWrapper {
@@ -159,7 +179,27 @@ input[type="number"] {
     height: 70%;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .Popup form div {
+    flex-wrap: wrap;
+    margin-top: 5px !important;
+    width: 100%;
+  }
+  .Popup form .textarea {
+    margin-top: 10px;
+  }
+
+  .Popup form span {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .Popup .formWrapper {
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
   }
 }

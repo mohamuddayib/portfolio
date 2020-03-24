@@ -14,7 +14,7 @@ class Standard extends Component {
         </Link>
         <section>
           <PayPalButton
-            amount="1"
+            amount="199"
             // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
             onSuccess={(details, data) => {
               alert("Transaction completed by " + details.payer.name.given_name);

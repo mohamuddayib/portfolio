@@ -96,3 +96,14 @@
   cursor: pointer;
   margin: 10px 10px 0 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .Payment section {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Payment section {
+    width: 70%;
+  }
+}
