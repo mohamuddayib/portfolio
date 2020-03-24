@@ -13,7 +13,7 @@ const Popular = () => {
       </Link>
       <section>
         <PayPalButton
-          amount="499"
+          amount="1"
           // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
           onSuccess={(details, data) => {
             alert("Transaction completed by " + details.payer.name.given_name);
