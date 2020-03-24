@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
-    <div className="Pricing" id="pricing">
+    <div className="Pricing" id="Pricing">
       <div className="title-container">
         <h2>Pricing</h2>
         <p>

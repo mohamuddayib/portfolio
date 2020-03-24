@@ -38,7 +38,8 @@ const Sidedrow = props => {
               Services
             </Link>
           </li>
-          <li><Link
+          <li>
+            <Link
               activeClass="active"
               to="About"
               spy={true}
@@ -47,8 +48,20 @@ const Sidedrow = props => {
               duration={500}
             >
               About
-            </Link></li>
-          <li>Pricing</li>
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Pricing"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Pricing
+            </Link>
+          </li>
           <li>Projects</li>
         </ul>
       </nav>
@@ -60,4 +73,3 @@ const Sidedrow = props => {
 };
 
 export default Sidedrow;
-
