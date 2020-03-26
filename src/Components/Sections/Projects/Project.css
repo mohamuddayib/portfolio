@@ -14,7 +14,7 @@
   background-color: #ffff;
   padding: 10px 30px;
   border: 1px solid #cccc;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 .portfolio__container {
   display: grid;
