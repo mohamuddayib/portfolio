@@ -13,6 +13,7 @@ import Pricing from "./Components/Sections/Pricing/Pricing";
 import Standard from "./Components/Sections/Payments/standard";
 import Popular from "./Components/Sections/Payments/popular";
 import Premium from "./Components/Sections/Payments/premium";
+import Project from "./Components/Sections/Projects/Project";
 
 class App extends Component {
   state = {
@@ -43,6 +44,7 @@ class App extends Component {
           <Services />
           <About />
           <Pricing />
+          <Project />
           <Switch>
             <Route path="/success" component={Sucess} />
             <Route path="/standard-payment" component={Standard} />

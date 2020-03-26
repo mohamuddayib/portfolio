@@ -102,7 +102,7 @@ class Nav extends Component {
             <li>
               <Link
                 activeClass="active"
-                to="section"
+                to="Project"
                 spy={true}
                 smooth={true}
                 offset={0}
