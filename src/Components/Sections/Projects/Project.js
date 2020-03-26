@@ -22,7 +22,7 @@ const portfolio = [
         <a href="https://www.mohamud.dev/">Live</a>
       </div>
     ),
-    category: ["ux-ui" , "mobile"]
+    category: ["ux-ui", "mobile"]
   },
   {
     name: "A old job",
@@ -78,8 +78,8 @@ function Project() {
       <div className="title-container">
         <h2>My Work</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officia veniam
-          asperiores.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          officia veniam asperiores.
         </p>
       </div>
 
@@ -87,17 +87,20 @@ function Project() {
         <span active={filter === "all"} onClick={() => setFilter("all")}>
           All
         </span>
-        <span active={filter === "frontend"} onClick={() => setFilter("frontend")}>
-          Frontend
+        <span
+          active={filter === "frontend"}
+          onClick={() => setFilter("frontend")}
+        >
+          Web App
         </span>
         <span active={filter === "mobile"} onClick={() => setFilter("mobile")}>
-          Mobile
+          Landing Page
         </span>
         <span active={filter === "ux-ui"} onClick={() => setFilter("ux-ui")}>
-          UX/UI
+          HTML-Email
         </span>
         <span active={filter === "others"} onClick={() => setFilter("others")}>
-          Others
+          Web design
         </span>
       </div>
       <div className="portfolio__container">

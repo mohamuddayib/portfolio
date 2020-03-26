@@ -68,7 +68,7 @@ class Nav extends Component {
                 to="section1"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={700}
               >
                 Services
@@ -80,7 +80,7 @@ class Nav extends Component {
                 to="About"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={700}
               >
                 About
@@ -92,7 +92,7 @@ class Nav extends Component {
                 to="Pricing"
                 spy={true}
                 smooth={true}
-                offset={80}
+                offset={-70}
                 duration={700}
               >
                 Pricing
@@ -105,7 +105,7 @@ class Nav extends Component {
                 to="Project"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-70}
                 duration={700}
               >
                 Project
