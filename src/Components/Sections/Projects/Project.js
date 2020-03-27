@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-
 import "./Project.css";
+import Icon from "@mdi/react";
+import { mdiWeb } from "@mdi/js";
+import { mdiGithubCircle } from "@mdi/js";
 
 const portfolio = [
   {
@@ -8,8 +10,21 @@ const portfolio = [
     class: "referenceApp",
     button: (
       <div className="buttons">
-        <a href="https://www.mohamud.dev/">Github</a>
-        <a href="https://www.mohamud.dev/">Live</a>
+        <h4>Reference App</h4>
+        <section>
+          <a
+            href="https://github.com/mohmuddev/reference"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon path={mdiGithubCircle} size={0.9} />
+            Github
+          </a>
+          <a href="https://docs.mohamud.dev" target="_blank" rel="noopener noreferrer">
+            <Icon path={mdiWeb} color="#EE5153" size={0.9} />
+            Live
+          </a>
+        </section>
       </div>
     ),
     category: ["all", "webapp"]
@@ -19,30 +34,67 @@ const portfolio = [
     class: "webagency",
     button: (
       <div className="buttons">
-        <a href="https://www.mohamud.dev/">Github</a>
-        <a href="https://www.mohamud.dev/">Live</a>
+        <h4>Digital Agency</h4>
+        <section>
+          <a
+            href="https://github.com/mohmuddev/WebAgency"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <Icon path={mdiGithubCircle} size={0.9} />
+            Github
+          </a>
+          <a href="https://digitalagency.mohamud.dev/" rel="noopener noreferrer" target="_blank">
+            {" "}
+            <Icon path={mdiWeb} color="#EE5153" size={0.9} />
+            Live
+          </a>
+        </section>
       </div>
     ),
     category: ["all", "landingPage"]
   },
   {
-    name: "Happy New Year",
-    class: "HappyNewYear",
+    name: "Saas Newsletter ",
+    class: "saas",
     button: (
       <div className="buttons">
-        <a href="https://www.mohamud.dev/">Github</a>
-        <a href="https://www.mohamud.dev/">Live</a>
+        <h4>Saas Newsletter</h4>
+        <section>
+          <a
+            href="https://github.com/mohmuddev/SaasNewsLetter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon path={mdiGithubCircle} size={0.9} />
+            Github
+          </a>
+          <a href="https://saasnewsletter.mohamud.dev/" target="_blank" rel="noopener noreferrer">
+            <Icon path={mdiWeb} color="#EE5153" size={0.9} />
+            Live
+          </a>
+        </section>
       </div>
     ),
     category: ["all", "html-email"]
   },
   {
-    name: "Saas Newsletter",
-    class: "saas",
+    name: "Happy New Year",
+    class: "HappyNewYear ",
     button: (
       <div className="buttons">
-        <a href="https://www.mohamud.dev/">Github</a>
-        <a href="https://www.mohamud.dev/">Live</a>
+        <h4>New Year Newsletter</h4>
+        <section>
+          <a href="https://www.mohamud.dev/">
+            <Icon path={mdiGithubCircle} size={1} />
+            Github
+          </a>
+          <a href="https://www.mohamud.dev/">
+            <Icon path={mdiWeb} color="#EE5153" size={1} />
+            Live
+          </a>
+        </section>
       </div>
     ),
     category: ["all", "html-email"]
