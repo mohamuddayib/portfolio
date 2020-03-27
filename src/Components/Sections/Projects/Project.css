@@ -29,8 +29,29 @@
   visibility: hidden;
 }
 .portfolio__container div {
-  border: 1px solid #cccc;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   padding: 5px;
   background-color: #fff;
   border-radius: 3px;
+}
+.Propect .referenceApp,
+.webagency,
+.HappyNewYear,
+.saas {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.referenceApp {
+  background-image: url(./Reference.webp);
+}
+.webagency {
+  background-image: url(./webagency.webp);
+  background-position: left !important;
+}
+.HappyNewYear {
+  background-image: url(./2020.webp);
+}
+.saas {
+  background-image: url(./saas.webp);
 }

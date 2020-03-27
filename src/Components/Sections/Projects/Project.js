@@ -4,55 +4,48 @@ import "./Project.css";
 
 const portfolio = [
   {
-    name: "My best client",
-    class: "className",
+    name: "Reference App",
+    class: "referenceApp",
     button: (
       <div className="buttons">
         <a href="https://www.mohamud.dev/">Github</a>
         <a href="https://www.mohamud.dev/">Live</a>
       </div>
     ),
-    category: ["all", "frontend", "ux-ui"]
+    category: ["all", "webapp"]
   },
   {
-    name: "My favorite case",
+    name: "Web Agency",
+    class: "webagency",
     button: (
       <div className="buttons">
         <a href="https://www.mohamud.dev/">Github</a>
         <a href="https://www.mohamud.dev/">Live</a>
       </div>
     ),
-    category: ["ux-ui", "mobile"]
+    category: ["all", "landingPage"]
   },
   {
-    name: "A old job",
+    name: "Happy New Year",
+    class: "HappyNewYear",
     button: (
       <div className="buttons">
         <a href="https://www.mohamud.dev/">Github</a>
         <a href="https://www.mohamud.dev/">Live</a>
       </div>
     ),
-    category: ["all", "frontend"]
+    category: ["all", "html-email"]
   },
   {
-    name: "It is a really cool website",
+    name: "Saas Newsletter",
+    class: "saas",
     button: (
       <div className="buttons">
         <a href="https://www.mohamud.dev/">Github</a>
         <a href="https://www.mohamud.dev/">Live</a>
       </div>
     ),
-    category: ["all", "frontend", "ux-ui"]
-  },
-  {
-    name: "Something more",
-    button: (
-      <div className="buttons">
-        <a href="https://www.mohamud.dev/">Github</a>
-        <a href="https://www.mohamud.dev/">Live</a>
-      </div>
-    ),
-    category: ["all", "others"]
+    category: ["all", "html-email"]
   }
 ];
 
@@ -78,8 +71,8 @@ function Project() {
       <div className="title-container">
         <h2>My Work</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          officia veniam asperiores.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officia veniam
+          asperiores.
         </p>
       </div>
 
@@ -87,19 +80,16 @@ function Project() {
         <span active={filter === "all"} onClick={() => setFilter("all")}>
           All
         </span>
-        <span
-          active={filter === "frontend"}
-          onClick={() => setFilter("frontend")}
-        >
+        <span active={filter === "webapp"} onClick={() => setFilter("webapp")}>
           Web App
         </span>
-        <span active={filter === "mobile"} onClick={() => setFilter("mobile")}>
+        <span active={filter === "landingPage"} onClick={() => setFilter("landingPage")}>
           Landing Page
         </span>
-        <span active={filter === "ux-ui"} onClick={() => setFilter("ux-ui")}>
+        <span active={filter === "html-email"} onClick={() => setFilter("html-email")}>
           HTML-Email
         </span>
-        <span active={filter === "others"} onClick={() => setFilter("others")}>
+        <span active={filter === "webdesign"} onClick={() => setFilter("webdesign")}>
           Web design
         </span>
       </div>
@@ -108,7 +98,6 @@ function Project() {
           item.filtered === true ? (
             <div key={item.name} className={item.class}>
               {item.button}
-              {item.button2}
             </div>
           ) : (
             ""
