@@ -103,3 +103,19 @@
   height: 50% !important;
   transition: all 0.5s ease;
 }
+
+@media only screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 300px 300px;
+  }
+  .portfolio__labels {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .portfolio__container {
+    grid-template-columns: 400px;
+    grid-template-rows: 320px 320px 320px 320px;
+  }
+}
