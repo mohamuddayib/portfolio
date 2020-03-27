@@ -62,7 +62,18 @@ const Sidedrow = props => {
               Pricing
             </Link>
           </li>
-          <li>Projects</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Project"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Project
+            </Link>
+          </li>
         </ul>
       </nav>
       <div className="ctaContact">

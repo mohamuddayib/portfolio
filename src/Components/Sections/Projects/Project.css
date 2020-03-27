@@ -115,7 +115,24 @@
 
 @media only screen and (max-width: 670px) {
   .portfolio__container {
-    grid-template-columns: 400px;
-    grid-template-rows: 320px 320px 320px 320px;
+    grid-template-columns: 300px;
+    grid-template-rows: 220px 220px 220px 220px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .portfolio__labels {
+    width: 85%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .portfolio__labels span{
+    padding: 8px 15px;
+    margin-top: 8px;
+  }
+  .portfolio__container {
+    grid-template-columns: 350px;
+    grid-template-rows: 280px 280px 280px 280px;
+  }
+}
+
