@@ -34,7 +34,7 @@
 .HappyNewYear,
 .saas {
   position: relative;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -126,7 +126,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
   }
-  .portfolio__labels span{
+  .portfolio__labels span {
     padding: 8px 15px;
     margin-top: 8px;
   }
@@ -135,4 +135,3 @@
     grid-template-rows: 280px 280px 280px 280px;
   }
 }
-
