@@ -107,10 +107,24 @@
 @media only screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+
   }
   .portfolio__labels {
     flex-wrap: wrap;
   }
+  .portfolio__labels {
+    width: 85%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .portfolio__labels span {
+    padding: 8px 15px;
+  }
+
+
 }
 
 @media only screen and (max-width: 670px) {
@@ -118,6 +132,17 @@
     grid-template-columns: 300px;
     grid-template-rows: 200px 200px 200px 200px;
   }
+  .portfolio__labels {
+    width: 85%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+  .portfolio__labels span {
+    padding: 8px 15px;
+  }
+  
 }
 @media only screen and (max-width: 425px) {
   .portfolio__labels {
