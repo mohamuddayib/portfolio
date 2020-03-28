@@ -84,5 +84,6 @@
   }
   .Pricing [class*="pricing-"] {
     margin-top: 30px;
+    width: 60%;
   }
 }
