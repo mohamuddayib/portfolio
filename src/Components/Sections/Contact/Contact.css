@@ -1,0 +1,52 @@
+.contact {
+  margin: 1px auto 0;
+  width: 60%;
+  border-radius: 10px;
+}
+.contact .contact-container {
+  margin-top: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+.contact .contact-container {
+  display: flex;
+  border-radius: 10px;
+}
+.contact .info {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #fff;
+  z-index: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translate(-70px, 50px);
+  background-image: linear-gradient(to right bottom, #401eff, #5d4bff);
+}
+.contact .info span {
+  display: block;
+  margin-top: 10px;
+}
+.contact .info div div {
+  display: flex;
+}
+.contact .info div div span {
+  margin-top: 20px;
+  margin-left: 0;
+}
+.contact .Contactform-wrapper {
+  flex: 3;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+.contact form div label {
+  display: block;
+}
+.contact form div {
+  display: flex;
+}
+.contact .title-container p {
+  width: 80%;
+}
