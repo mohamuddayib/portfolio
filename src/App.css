@@ -1,6 +1,8 @@
 .App {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .App svg {
   top: -60%;
@@ -12,3 +14,4 @@
   margin-top: -1.5px;
   background-color: #fbfcff;
 }
+

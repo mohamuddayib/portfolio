@@ -15,6 +15,7 @@ import Popular from "./Components/Sections/Payments/popular";
 import Premium from "./Components/Sections/Payments/premium";
 import Project from "./Components/Sections/Projects/Project";
 import Contact from "./Components/Sections/Contact/Contact";
+import Footer from "./Components/Sections/Footer/footer";
 
 class App extends Component {
   state = {
@@ -40,13 +41,17 @@ class App extends Component {
           <Nav show={this.SidrawerClickHandler} />
           <Fullscreen />
           <section className="divider"></section>
-          <Sidedrow open={this.state.sideDrowerOpen} close={this.BackdrowerClickHandler} />
+          <Sidedrow
+            open={this.state.sideDrowerOpen}
+            close={this.BackdrowerClickHandler}
+          />
           {Backdrower}
           <Services />
           <About />
           <Pricing />
           <Project />
           <Contact />
+          <Footer />
           <Switch>
             <Route path="/success" component={Sucess} />
             <Route path="/standard-payment" component={Standard} />

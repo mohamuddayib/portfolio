@@ -1,0 +1,25 @@
+.Footer {
+  margin-top: 100px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(141, 45, 226, 0.824),
+    rgba(75, 0, 224, 0.827)
+  );
+  margin-bottom: -30px;
+  height: 400px;
+  position: relative;
+}
+
+.Footer footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid rgba(255, 255, 255, 0.046);
+  color: #ffff;
+  font-weight: lighter;
+}
