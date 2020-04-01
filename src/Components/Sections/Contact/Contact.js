@@ -16,48 +16,56 @@ const Contact = () => {
       <div className="title-container">
         <h2>Contact me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officia veniam
-          asperiores.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          officia veniam asperiores.
         </p>
       </div>
       <div className="contact-container">
         <div className="info">
-          <h3>Let's talk</h3>
-          <div>
+          <h3>Get in touch</h3>
+          <div className="contact-info">
             <span>
               <Icon path={mdiEmail} size={1} color="#fff" />
-              Email
+              info@mohamud.dev
             </span>
             <span>
               <Icon path={mdiPhone} size={1} color="#fff" />
-              Phone
+              +252617758011
             </span>
             <span>
               <Icon path={mdiMapMarker} size={1} color="#fff" />
-              Address
+              Kismayo, Lower Jubba , Somalia
             </span>
             <span>
               <Icon path={mdiAlarm} size={1} color="#fff" />
-              Working hours
+              Sat-Thurs, 7:00AM -9:00PM
             </span>
-            <div>
+            <div className="contact-social">
               <span>
-                <Icon path={mdiLinkedin} size={1} color="#fff" />
+                <a href="http://mohamud.dev/">
+                  <Icon path={mdiLinkedin} size={1} color="#fff" />
+                </a>
               </span>
               <span>
-                <Icon path={mdiFacebook} size={1} color="#fff" />
+                <a href="http://mohamud.dev/">
+                  <Icon path={mdiFacebook} size={1} color="#fff" />{" "}
+                </a>
               </span>
               <span>
-                <Icon path={mdiTwitter} size={1} color="#fff" />
+                <a href="http://mohamud.dev/">
+                  <Icon path={mdiTwitter} size={1} color="#fff" />{" "}
+                </a>
               </span>
               <span>
-                <Icon path={mdiInstagram} size={1} color="#fff" />
+                <a href="http://mohamud.dev/">
+                  <Icon path={mdiInstagram} size={1} color="#fff" />
+                </a>
               </span>
             </div>
           </div>
         </div>
         <div className="Contactform-wrapper">
-          <h3>Get in touch</h3>
+          <h3>Let's talk</h3>
           <form action="">
             <div>
               <span>
@@ -80,14 +88,20 @@ const Contact = () => {
               </span>
             </div>
             <div>
-              <span>
+              <span className="textarea">
                 <label htmlFor="name">Message</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
               </span>
             </div>
             <button type="submit">
-              <Icon path={mdiTelegram} size={1} color="" />
-              Send message
+              Send Message
+              <Icon path={mdiTelegram} size={1} color="#fff" />
             </button>
           </form>
         </div>

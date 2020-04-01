@@ -5,7 +5,7 @@
 }
 .contact .contact-container {
   margin-top: 20px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 .contact .contact-container {
@@ -21,9 +21,10 @@
   border-radius: 10px;
   color: #fff;
   z-index: 10px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  transform: translate(-70px, 50px);
-  background-image: linear-gradient(to right bottom, #401eff, #5d4bff);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translate(-60px, 50px);
+  background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
 }
 .contact .info span {
   display: block;
@@ -41,12 +42,77 @@
   padding: 20px;
   border-radius: 0 10px 10px 0;
 }
+.contact form {
+  transform: translateX(-20px);
+}
 .contact form div label {
   display: block;
 }
 .contact form div {
   display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.contact form div span:not(.textarea) {
+  width: 49.5%;
+}
+.contact form input {
+  box-sizing: border-box;
+  padding: 8px 8px;
+  outline: none;
+}
+.contact form input,
+textarea {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 8px;
 }
 .contact .title-container p {
-  width: 80%;
+  width: 80% !important;
+}
+.contact form .textarea {
+  box-sizing: border-box;
+  width: 100% !important;
+}
+.contact form button {
+  margin-top: 10px;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 0.9em;
+  color: #fff;
+  background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.contact button svg {
+  margin-left: 5px;
+}
+
+.contact .contact-social {
+  margin: 1px auto 0;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.contact .contact-info {
+  text-align: left;
+  margin-top: 70px;
+  font-size: 0.9em;
+}
+.contact .contact-info span {
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+}
+.contact .contact-info svg {
+  margin-right: 10px;
 }

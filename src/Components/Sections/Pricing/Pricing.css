@@ -55,7 +55,7 @@
   font-size: 0.9em;
 }
 .Pricing .pricing-three {
-  background-image: linear-gradient(to right bottom, #401eff, #5d4bff);
+  background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
 }
 .Pricing .pricing-three button {
   color: #4425ff;
