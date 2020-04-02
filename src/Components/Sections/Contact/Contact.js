@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
             <button type="submit">
               Send Message
-              <Icon path={mdiTelegram} size={1} color="#fff" />
+              <Icon path={mdiTelegram} size={0.8} color="#fff" />
             </button>
           </form>
         </div>
