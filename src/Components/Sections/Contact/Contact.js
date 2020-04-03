@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import Icon from "@mdi/react";
-import { mdiPhone } from "@mdi/js";
-import { mdiEmail } from "@mdi/js";
+import { mdiPhoneOutline } from "@mdi/js";
+import { mdiEmailOutline } from "@mdi/js";
 import { mdiMapMarker } from "@mdi/js";
 import { mdiAlarm } from "@mdi/js";
 import { mdiTelegram } from "@mdi/js";
@@ -12,7 +12,7 @@ import { mdiTwitter } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="Contact">
       <div className="title-container">
         <h2>Contact me</h2>
         <p>
@@ -25,11 +25,11 @@ const Contact = () => {
           <h3>Get in touch</h3>
           <div className="contact-info">
             <span>
-              <Icon path={mdiEmail} size={1} color="#fff" />
+              <Icon path={mdiEmailOutline} size={1} color="#fff" />
               info@mohamud.dev
             </span>
             <span>
-              <Icon path={mdiPhone} size={1} color="#fff" />
+              <Icon path={mdiPhoneOutline} size={1} color="#fff" />
               +252617758011
             </span>
             <span>

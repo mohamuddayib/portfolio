@@ -26,7 +26,7 @@ const Services = props => {
         </div>
         <div className="service-2">
           <img src={DevelopIcon} alt="develop" />
-          <h4>Web development</h4>
+          <h4>Website development</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. atque quasi obcaecati adipisci
             anitationem natus quaerat?
@@ -34,7 +34,7 @@ const Services = props => {
         </div>
         <div className="service-3">
           <img src={AppIcon} alt="App" />
-          <h4>App development</h4>
+          <h4>Web App development</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. atque quasi obcaecati adipisci
             anitationem natus quaerat?
@@ -42,7 +42,7 @@ const Services = props => {
         </div>
         <div className="service-4">
           <img src={EmailIcon} alt="email" />
-          <h4>HTML-Email development</h4>
+          <h4>HTML Email development</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. atque quasi obcaecati adipisci
             anitationem natus quaerat?

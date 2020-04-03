@@ -66,7 +66,7 @@ const About = () => {
             {/* CSS SKILL */}
             <div className="skill">
               <div className="title-skill">
-                <span>Flutter</span>
+                <span>Node</span>
                 <span className="percentage">60%</span>
               </div>
               <div className="fill-container">

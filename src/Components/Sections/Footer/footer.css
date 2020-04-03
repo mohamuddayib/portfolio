@@ -2,8 +2,10 @@
   margin-top: 100px;
   background: linear-gradient(to bottom right, #6e40dd, #8837dc);
   margin-bottom: -30px;
-  height: 400px;
+  height: 550px;
   position: relative;
+  padding-top: 0px;
+  padding-top: 0;
 }
 
 .Footer footer {
@@ -15,7 +17,58 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 2px solid rgba(255, 255, 255, 0.046);
+  border-top: 2px solid rgba(255, 255, 255, 0.076);
   color: #ffff;
   font-weight: lighter;
+  font-family: monospace;
+  font-size: 14px;
+}
+.Footer .footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: #fff;
+  margin-top: -50px;
+  font-size: 0.9em;
+}
+.Footer .footer-content div {
+  width: 30%;
+}
+.Footer .footer-content span {
+  display: block;
+  margin-top: 10px;
+}
+.Footer .importanLinks,
+.support {
+  width: 10% !important;
+}
+.Footer .importanLinks span {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #FFFF !important;
+}
+.Footer .footer-info {
+  width: 20% !important;
+  margin-left: 10px;
+}
+.Footer .support span {
+  display: flex;
+  align-items: center;
+}
+.Footer .support svg {
+  margin-right: 10px;
+}
+.Footer .Paypment span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: c;
+}
+.Footer .Paypment img {
+  height: 30px;
+  margin-right: 10px;
 }
