@@ -6,7 +6,7 @@ import Popup from "../Popup/Popup";
 
 class Fullscreen extends Component {
   state = {
-    showpopup: false
+    showpopup: false,
   };
   showPopupHandler = () => {
     const currentState = this.state.showpopup;
@@ -24,10 +24,12 @@ class Fullscreen extends Component {
       <div className="Fullscreen">
         <div className="wrapper">
           <div className="content-container">
-            <h2>Web developer</h2>
+            <h2>Lookng for a web developer ?</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem at aliquid amet
-              aperiam facilis explicabo aspernatur assumenda dicta nihil perferendis.
+              I design and develop Custom websites and web applications that meets my
+              Clients need. I’m committed towards surpassing customers’
+              expectations by offering excellent and timely web design and
+              development business solutions.
             </p>
             <button onClick={this.showPopupHandler}>Request a Quote</button>
           </div>
