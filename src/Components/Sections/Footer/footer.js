@@ -13,7 +13,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <footer className="Footer">
-      <img src={FooterWave} alt="wave" />
+      <img src={FooterWave} alt="wave" className="footer-wave" />
       <div className="footer-content">
         <div>
           <h3>About Me</h3>
@@ -110,7 +110,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <footer>Copyrights © 2020. All rights reserved by Mohamud Ali</footer>
+      <footer>Copyrights © 2020. All rights reserved</footer>
     </footer>
   );
 };

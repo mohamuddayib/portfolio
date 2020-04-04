@@ -116,3 +116,37 @@ textarea {
 .contact .contact-info svg {
   margin-right: 10px;
 }
+
+/* mobile and small screen compatibily */
+
+@media only screen and (max-width: 1024px) {
+ 
+  .contact .contact-container {
+    flex-wrap: wrap;
+    box-shadow: none;
+  }
+  .contact-container .info {
+    transform: none;
+    width: 80%;
+  }
+  .contact-container .Contactform-wrapper {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .contact-container .Contactform-wrapper form {
+    transform: none;
+  }
+}
+@media only screen and (max-width:425px){
+  .contact{
+    width: 90%;
+  }
+  .contact form div{
+   flex-direction: column;
+  } 
+  .contact form span{
+    width: 100% !important;
+  }
+}

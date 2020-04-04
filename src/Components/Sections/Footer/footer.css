@@ -72,3 +72,35 @@
   height: 30px;
   margin-right: 10px;
 }
+
+
+/*responsive and small screen compatibiliy*/
+@media only screen and (max-width:1024px){
+  .Footer {
+    height: 900px;
+    padding: 0;
+    width: 100% !important;
+
+  }
+  .Footer .footer-wave{
+    width: 100%;
+  }
+  .Footer .footer-content{
+    flex-direction: column;
+  }
+  .Footer .footer-content div {
+    margin-top: 1px auto 0;
+    width: 90%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .Footer .importanLinks,.footer-info,.Paypment{
+    width: 80% !important;
+  }
+  .Footer .support{
+    margin-left: 0;
+    padding-left: 0;
+    width: 80% !important;
+  }
+}
