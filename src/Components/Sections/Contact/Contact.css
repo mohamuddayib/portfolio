@@ -145,8 +145,10 @@ textarea {
   }
   .contact form div{
    flex-direction: column;
+   margin-top: 0px;
   } 
   .contact form span{
     width: 100% !important;
+    margin-top: 10px;
   }
 }
