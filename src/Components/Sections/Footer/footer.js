@@ -18,10 +18,9 @@ const Footer = () => {
         <div>
           <h3>About Me</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta
-            ullam qui magni laudantium corporis ea numquam voluptatum, ab, ipsam
-            beatae unde. Quibusdam, quod quam necessitatibus consequatur
-            dignissimos fuga aliquam.
+            My mission is to create custom websites and marketing plans for
+            businesses of all varieties. Regardless of your size, you should
+            have a website that speaks your ideas and helps you grow.
           </p>
         </div>
         <div className="importanLinks">
