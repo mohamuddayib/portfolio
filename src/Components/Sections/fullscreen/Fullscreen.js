@@ -27,8 +27,7 @@ class Fullscreen extends Component {
             <h2>Lookng for a web developer ?</h2>
             <p>
               I design and develop Custom websites and web applications that meets my
-              Clients need. I’m committed towards surpassing customers’
-              expectations by offering excellent and timely web design and
+              Clients need. I offer excellent and timely web design and
               development business solutions.
             </p>
             <button onClick={this.showPopupHandler}>Request a Quote</button>
