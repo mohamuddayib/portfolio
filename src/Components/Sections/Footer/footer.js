@@ -9,6 +9,7 @@ import { mdiEmailOutline } from "@mdi/js";
 import { mdiMapMarker } from "@mdi/js";
 import { mdiPhoneOutline } from "@mdi/js";
 import { Link } from "react-scroll";
+import FooterLogo from './FooterLogo.png';
 
 const Footer = () => {
   return (
@@ -16,7 +17,10 @@ const Footer = () => {
       <img src={FooterWave} alt="wave" className="footer-wave" />
       <div className="footer-content">
         <div>
-          <h3>mohamud.dev</h3>
+          <span className="footerLogo">
+            <img src={FooterLogo} alt="logo"/><h3>mohamud.dev</h3>
+          </span>
+          
           <p>
             My mission is to create custom websites and marketing plans for
             businesses of all varieties. Regardless of your size, you should
