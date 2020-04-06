@@ -61,7 +61,7 @@
     width: 90%;
   }
   .title-container p {
-    width: 90%;
+    width: 90% !important;
   }
 }
 

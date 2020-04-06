@@ -116,11 +116,13 @@ textarea {
 .contact .contact-info svg {
   margin-right: 10px;
 }
+.contact .title-container p {
+  width: 50%;
+}
 
 /* mobile and small screen compatibily */
 
 @media only screen and (max-width: 1024px) {
- 
   .contact .contact-container {
     flex-wrap: wrap;
     box-shadow: none;
@@ -139,16 +141,19 @@ textarea {
     transform: none;
   }
 }
-@media only screen and (max-width:425px){
-  .contact{
+@media only screen and (max-width: 425px) {
+  .contact {
     width: 90%;
   }
-  .contact form div{
-   flex-direction: column;
-   margin-top: 0px;
-  } 
-  .contact form span{
+  .contact form div {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .contact form span {
     width: 100% !important;
     margin-top: 10px;
+  }
+  .contact .title-container p {
+    width: 90% !important;
   }
 }

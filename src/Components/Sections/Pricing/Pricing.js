@@ -4,15 +4,13 @@ import Icon from "@mdi/react";
 import { mdiCheckboxMarkedCircleOutline } from "@mdi/js";
 import { Link } from "react-router-dom";
 
-
 const Pricing = () => {
   return (
     <div className="Pricing" id="Pricing">
       <div className="title-container">
         <h2>Pricing</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officia veniam
-          asperiores.
+          Choose a plan that's right for your business
         </p>
       </div>
       {/* <ScrollAnimation animateIn="wobble"> */}
@@ -26,28 +24,52 @@ const Pricing = () => {
           </span>
           <ul>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" /> consectetur
-              adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              1 year free domain and hosting
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Maximum five webpages.
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Search Engnine optimisation
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              maximum two admin users
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Devlivery time one week
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Support 24/7
             </li>
           </ul>
           <Link to="/standard-payment" style={{ textDecoration: "none" }}>
@@ -63,28 +85,52 @@ const Pricing = () => {
           </span>
           <ul>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              All features in standard plan
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Google anyltics integration
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Live chat app integration
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Unlimited admin users
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Maximum 10 webpages
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              10 email accounts
             </li>
           </ul>
           <Link to="/popular-payment" style={{ textDecoration: "none" }}>
@@ -100,28 +146,52 @@ const Pricing = () => {
           </span>
           <ul>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              All features in popular plan
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              E-commerce solution
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              CRM software
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Unlimited email accounts
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Multi language support
             </li>
             <li>
-              <Icon path={mdiCheckboxMarkedCircleOutline} size={1} color="#ffff" />
-              consectetur adipisicing elit
+              <Icon
+                path={mdiCheckboxMarkedCircleOutline}
+                size={1}
+                color="#ffff"
+              />
+              Payment gatway integration
             </li>
           </ul>
           <Link to="/premium-payment" style={{ textDecoration: "none" }}>

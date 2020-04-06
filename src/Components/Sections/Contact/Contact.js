@@ -16,8 +16,8 @@ const Contact = () => {
       <div className="title-container">
         <h2>Contact me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          officia veniam asperiores.
+          Whether you have a question about features, pricing, or anything else,
+          I'm always ready to answer all your questions
         </p>
       </div>
       <div className="contact-container">

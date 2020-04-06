@@ -20,14 +20,18 @@ const portfolio = [
             <Icon path={mdiGithubCircle} size={0.9} />
             Github
           </a>
-          <a href="https://docs.mohamud.dev" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://docs.mohamud.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon path={mdiWeb} color="#EE5153" size={0.9} />
             Live
           </a>
         </section>
       </div>
     ),
-    category: ["all", "webapp"]
+    category: ["all", "webapp"],
   },
   {
     name: "Web Agency",
@@ -45,7 +49,11 @@ const portfolio = [
             <Icon path={mdiGithubCircle} size={0.9} />
             Github
           </a>
-          <a href="https://digitalagency.mohamud.dev/" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://digitalagency.mohamud.dev/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             {" "}
             <Icon path={mdiWeb} color="#EE5153" size={0.9} />
             Live
@@ -53,7 +61,7 @@ const portfolio = [
         </section>
       </div>
     ),
-    category: ["all", "landingPage"]
+    category: ["all", "landingPage"],
   },
   {
     name: "Saas Newsletter ",
@@ -70,14 +78,18 @@ const portfolio = [
             <Icon path={mdiGithubCircle} size={0.9} />
             Github
           </a>
-          <a href="https://saasnewsletter.mohamud.dev/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://saasnewsletter.mohamud.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon path={mdiWeb} color="#EE5153" size={0.9} />
             Live
           </a>
         </section>
       </div>
     ),
-    category: ["all", "html-email"]
+    category: ["all", "html-email"],
   },
   {
     name: "Happy New Year",
@@ -97,8 +109,8 @@ const portfolio = [
         </section>
       </div>
     ),
-    category: ["all", "html-email"]
-  }
+    category: ["all", "html-email"],
+  },
 ];
 
 function Project() {
@@ -112,9 +124,9 @@ function Project() {
   useEffect(() => {
     setProjects([]);
 
-    const filtered = portfolio.map(p => ({
+    const filtered = portfolio.map((p) => ({
       ...p,
-      filtered: p.category.includes(filter)
+      filtered: p.category.includes(filter),
     }));
     setProjects(filtered);
   }, [filter]);
@@ -123,8 +135,8 @@ function Project() {
       <div className="title-container">
         <h2>My Work</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officia veniam
-          asperiores.
+          I have showcased below some of my recent projects and I'm currently
+          working on new projects.
         </p>
       </div>
 
@@ -135,18 +147,27 @@ function Project() {
         <span active={filter === "webapp"} onClick={() => setFilter("webapp")}>
           Web App
         </span>
-        <span active={filter === "landingPage"} onClick={() => setFilter("landingPage")}>
+        <span
+          active={filter === "landingPage"}
+          onClick={() => setFilter("landingPage")}
+        >
           Landing Page
         </span>
-        <span active={filter === "html-email"} onClick={() => setFilter("html-email")}>
+        <span
+          active={filter === "html-email"}
+          onClick={() => setFilter("html-email")}
+        >
           HTML-Email
         </span>
-        <span active={filter === "webdesign"} onClick={() => setFilter("webdesign")}>
+        <span
+          active={filter === "webdesign"}
+          onClick={() => setFilter("webdesign")}
+        >
           Web design
         </span>
       </div>
       <div className="portfolio__container">
-        {projects.map(item =>
+        {projects.map((item) =>
           item.filtered === true ? (
             <div key={item.name} className={item.class}>
               {item.button}

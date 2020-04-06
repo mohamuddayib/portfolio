@@ -16,7 +16,7 @@ const Footer = () => {
       <img src={FooterWave} alt="wave" className="footer-wave" />
       <div className="footer-content">
         <div>
-          <h3>About Me</h3>
+          <h3>mohamud.dev</h3>
           <p>
             My mission is to create custom websites and marketing plans for
             businesses of all varieties. Regardless of your size, you should

@@ -17,16 +17,17 @@ const About = () => {
           <h3>Mohamud Ali</h3>
           <p className="position">Web developer and designer</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sit libero.
-            Voluptatem repellendus consequatur adipisci nulla, ipsa ab nemo alias, corporis neque
-            accusamus et debitis quisquam dignissimos vitae ratione. Tempora?
+            I'm Mohamud, I'm a web developer and designer based in Kismayo,
+            Somalia. I have been working this industry over the last couple of
+            years and I've experience of the latest technologies both as a
+            framework and vanilla programming language.
           </p>
           <h4>Featured skills</h4>
           <ScrollAnimation animateIn="wobble">
             {/* HTML SKILL */}
             <div className="skill">
               <div className="title-skill">
-                <span>HTML</span>
+                <span>HTML5</span>
                 <span className="percentage">90%</span>
               </div>
               <div className="fill-container">
@@ -36,7 +37,7 @@ const About = () => {
             {/* CSS SKILL */}
             <div className="skill">
               <div className="title-skill">
-                <span>CSS</span>
+                <span>CSS3</span>
                 <span className="percentage">90%</span>
               </div>
               <div className="fill-container">
@@ -56,7 +57,7 @@ const About = () => {
             {/* CSS SKILL */}
             <div className="skill">
               <div className="title-skill">
-                <span>React</span>
+                <span>React.js</span>
                 <span className="percentage">70%</span>
               </div>
               <div className="fill-container">
@@ -66,7 +67,7 @@ const About = () => {
             {/* CSS SKILL */}
             <div className="skill">
               <div className="title-skill">
-                <span>Node</span>
+                <span>Node.js</span>
                 <span className="percentage">60%</span>
               </div>
               <div className="fill-container">
@@ -76,7 +77,7 @@ const About = () => {
             {/* CSS SKILL */}
             <div className="skill">
               <div className="title-skill">
-                <span>Wordpress</span>
+                <span>Wordpress(CMS)</span>
                 <span className="percentage">90%</span>
               </div>
               <div className="fill-container">

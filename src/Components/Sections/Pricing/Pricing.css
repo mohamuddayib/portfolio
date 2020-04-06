@@ -4,25 +4,31 @@
 .Pricing .tables {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 40px;
 }
 .Pricing [class*="pricing-"] {
   text-align: center;
-  padding: 20px 50px;
+  padding: 25px 10px;
+  box-sizing: border-box; 
+  width: 330px;
   border-radius: 30px;
   color: #fff;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .Pricing ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: left;
+  margin-left: 35px;
 }
 .Pricing li {
   margin-top: 25px;
   font-size: 0.9em;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .Pricing li svg {
   margin-right: 10px;
@@ -36,7 +42,8 @@
   outline: none;
   cursor: pointer;
   border: none;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
   font-family: "Poppins";
 }
 .Pricing .pricing-one {
@@ -48,7 +55,11 @@
   font-size: 0.9em;
 }
 .Pricing .pricing-two {
-  background-image: linear-gradient(to right bottom, #ea334a, rgba(240, 88, 65, 0.856));
+  background-image: linear-gradient(
+    to right bottom,
+    #ea334a,
+    rgba(240, 88, 65, 0.856)
+  );
 }
 .Pricing .pricing-two button {
   color: #eb394c;
@@ -88,6 +99,6 @@
 }
 @media only screen and (max-width: 425px) {
   .Pricing [class*="pricing-"] {
-    width: 60%;
+    width: 90%;
   }
 }
