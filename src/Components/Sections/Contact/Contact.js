@@ -30,7 +30,7 @@ const Contact = () => {
             </span>
             <span>
               <Icon path={mdiPhoneOutline} size={1} color="#fff" />
-              +252617758011
+              +252615374336
             </span>
             <span>
               <Icon path={mdiMapMarker} size={1} color="#fff" />

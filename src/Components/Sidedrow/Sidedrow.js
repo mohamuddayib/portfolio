@@ -5,7 +5,7 @@ import Icon from "@mdi/react";
 import { mdiClose } from "@mdi/js";
 import { Link } from "react-scroll";
 
-const Sidedrow = props => {
+const Sidedrow = (props) => {
   let siderawClasses = "side-Drawer";
   if (props.open) {
     siderawClasses = "side-Drawer open";
@@ -77,7 +77,16 @@ const Sidedrow = props => {
         </ul>
       </nav>
       <div className="ctaContact">
-        <button>Contact</button>
+        <Link
+          activeClass="active"
+          to="Contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <button>Contact</button>
+        </Link>
       </div>
     </div>
   );

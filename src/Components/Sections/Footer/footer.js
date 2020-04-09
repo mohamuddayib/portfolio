@@ -91,7 +91,7 @@ const Footer = () => {
           </span>
           <span>
             <Icon path={mdiPhoneOutline} size={1} color="#fff" />
-            +2527617758011
+            +252615374336
           </span>
           <span>
             <Icon path={mdiMapMarker} size={1} color="#fff" />

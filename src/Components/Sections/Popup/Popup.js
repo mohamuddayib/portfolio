@@ -29,7 +29,7 @@ class Popup extends Component {
             <div>
               <span>
                 <label htmlFor="name">Name</label>
-                <input type="text" name="name" placeholder="Your Name" />
+                <input type="text" name="name" placeholder="Your Name" required/>
               </span>
               <span>
                 <label htmlFor="email">Email</label>
@@ -39,7 +39,7 @@ class Popup extends Component {
             <div>
               <span>
                 <label htmlFor="number">Phone Number</label>
-                <input type="number" name="number" placeholder="Your Phone Number" />
+                <input type="number" name="number" placeholder="Your Phone Number" required/>
               </span>
               <span>
                 <label htmlFor="company">Company Name (Optional)</label>
