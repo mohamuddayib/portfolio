@@ -14,7 +14,7 @@ header {
   transition: all 0.1s ease;
 }
 header .brand {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 header nav {
   margin-left: 10px;
@@ -43,8 +43,8 @@ header nav {
   color: #fff;
 }
 .brand img {
-  height: 40px;
-  width: 40px;
+  height: 52px;
+  width: 47px;
 }
 .toggle {
   margin-left: auto;
@@ -75,8 +75,8 @@ header nav {
     margin-right: 25px;
   }
   .brand img {
-    height: 40px;
-    width: 40px;
+    height: 52px;
+    width: 47px;
   }
   [class*="social-"] {
     display: none !important;

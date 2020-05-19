@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Nav.css";
-import Logo from "./Logo.png";
-import LogoScroll from "./Logo-scroll.png";
+import Logo from "./Logo.webp";
+import LogoScroll from "./Logo-scroll.webp";
 import Icon from "@mdi/react";
 import { mdiLinkedin } from "@mdi/js";
 import { mdiFacebook } from "@mdi/js";
