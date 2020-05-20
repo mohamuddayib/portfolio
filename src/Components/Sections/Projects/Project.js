@@ -68,10 +68,10 @@ const portfolio = [
     class: "saas",
     button: (
       <div className="buttons">
-        <h4>Saas Newsletter</h4>
+        <h4>Covid-19 tracker</h4>
         <section>
           <a
-            href="https://github.com/mohmuddev/SaasNewsLetter"
+            href="https://github.com/mohmuddev/coronavirus"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -79,7 +79,7 @@ const portfolio = [
             Github
           </a>
           <a
-            href="https://saasnewsletter.mohamud.dev/"
+            href="https://coronavirus.mohamud.dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,7 +89,7 @@ const portfolio = [
         </section>
       </div>
     ),
-    category: ["all", "html-email"],
+    category: ["all", "webapp"],
   },
   {
     name: "Happy New Year",
