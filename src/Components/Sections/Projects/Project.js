@@ -96,20 +96,24 @@ const portfolio = [
     class: "HappyNewYear ",
     button: (
       <div className="buttons">
-        <h4>New Year Newsletter</h4>
+        <h4>Secured docs app</h4>
         <section>
-          <a href="https://www.mohamud.dev/">
+          <a href="https://github.com/mohmuddev/ishraq-docs">
             <Icon path={mdiGithubCircle} size={1} />
             Github
           </a>
-          <a href="https://www.mohamud.dev/">
+          <a
+            href="https://ishraq-docs.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon path={mdiWeb} color="#EE5153" size={1} />
             Live
           </a>
         </section>
       </div>
     ),
-    category: ["all", "html-email"],
+    category: ["all", "webapp"],
   },
 ];
 
