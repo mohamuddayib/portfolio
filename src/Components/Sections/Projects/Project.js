@@ -64,6 +64,31 @@ const portfolio = [
     category: ["all", "landingPage"],
   },
   {
+    name: "Happy New Year",
+    class: "HappyNewYear ",
+    button: (
+      <div className="buttons">
+        <h4>Secured docs app</h4>
+        <section>
+          <a href="https://github.com/mohmuddev/ishraq-docs">
+            <Icon path={mdiGithubCircle} size={1} />
+            Github
+          </a>
+          <a
+            href="https://ishraq-docs.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon path={mdiWeb} color="#EE5153" size={1} />
+            Live
+          </a>
+        </section>
+      </div>
+    ),
+    category: ["all", "webapp"],
+  },
+
+  {
     name: "Saas Newsletter ",
     class: "saas",
     button: (
@@ -84,30 +109,6 @@ const portfolio = [
             rel="noopener noreferrer"
           >
             <Icon path={mdiWeb} color="#EE5153" size={0.9} />
-            Live
-          </a>
-        </section>
-      </div>
-    ),
-    category: ["all", "webapp"],
-  },
-  {
-    name: "Happy New Year",
-    class: "HappyNewYear ",
-    button: (
-      <div className="buttons">
-        <h4>Secured docs app</h4>
-        <section>
-          <a href="https://github.com/mohmuddev/ishraq-docs">
-            <Icon path={mdiGithubCircle} size={1} />
-            Github
-          </a>
-          <a
-            href="https://ishraq-docs.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Icon path={mdiWeb} color="#EE5153" size={1} />
             Live
           </a>
         </section>
