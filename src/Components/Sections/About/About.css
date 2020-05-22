@@ -25,6 +25,7 @@
   height: 500px;
   width: 280px;
   padding-top: 0;
+  pointer-events: none;
 }
 
 .AboutRow-1 p {

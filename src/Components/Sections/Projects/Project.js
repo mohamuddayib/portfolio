@@ -25,7 +25,7 @@ const portfolio = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon path={mdiWeb} color="#EE5153" size={0.9} />
+            <Icon path={mdiWeb} color="#00FF00" size={0.9} />
             Live
           </a>
         </section>
@@ -55,7 +55,7 @@ const portfolio = [
             target="_blank"
           >
             {" "}
-            <Icon path={mdiWeb} color="#EE5153" size={0.9} />
+            <Icon path={mdiWeb} color="#00FF00" size={0.9} />
             Live
           </a>
         </section>
@@ -79,7 +79,7 @@ const portfolio = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon path={mdiWeb} color="#EE5153" size={1} />
+            <Icon path={mdiWeb} color="#00FF00" size={1} />
             Live
           </a>
         </section>
@@ -108,7 +108,7 @@ const portfolio = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon path={mdiWeb} color="#EE5153" size={0.9} />
+            <Icon path={mdiWeb} color="#00FF00" size={0.9} />
             Live
           </a>
         </section>

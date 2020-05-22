@@ -57,6 +57,7 @@
   margin-top: 6.4em;
   height: 480px;
   width: 600px;
+  pointer-events: none;
 }
 
 /* Responsive website*/
@@ -89,7 +90,7 @@
     margin: 200px auto 0;
   }
 }
-@media only screen and (max-width:425px) {
+@media only screen and (max-width: 425px) {
   .Fullscreen .content-container h2 {
     font-size: 20px !important;
   }
