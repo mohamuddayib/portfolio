@@ -73,7 +73,7 @@ const Pricing = () => {
             </li>
           </ul>
           <Link to="/standard-payment" style={{ textDecoration: "none" }}>
-            <button>Buy now</button>
+            <button>Order now</button>
           </Link>
         </div>
         <div className="pricing-two">
@@ -134,7 +134,7 @@ const Pricing = () => {
             </li>
           </ul>
           <Link to="/popular-payment" style={{ textDecoration: "none" }}>
-            <button>Buy now</button>
+            <button>Order now</button>
           </Link>
         </div>
         <div className="pricing-three">
@@ -195,7 +195,7 @@ const Pricing = () => {
             </li>
           </ul>
           <Link to="/premium-payment" style={{ textDecoration: "none" }}>
-            <button>Buy now</button>
+            <button>Order now</button>
           </Link>
         </div>
       </div>
