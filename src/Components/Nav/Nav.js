@@ -9,6 +9,7 @@ import { mdiTwitter } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
 import { Link } from "react-scroll";
 
+
 class Nav extends Component {
   componentDidMount() {
     window.addEventListener("scroll", () => {
@@ -125,6 +126,10 @@ class Nav extends Component {
             </li>
           </ul>
         </nav>
+       
+        <div className="language-container">
+            <span></span>
+            </div>
         <div className="social-default">
           <a href="https://www.linkedin.com/" title="linkedIn">
             <Icon path={mdiLinkedin} size={1} color="#ffff" />

@@ -75,7 +75,7 @@
 }
 
 .Payment::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -85,7 +85,7 @@
     linear,
     left bottom,
     left top,
-    color-stop(0.44, rgba(118, 116, 255, 0.705)),
+    color-stop(0.44, rgba(70, 67, 255, 0.705)),
     color-stop(0.72, rgb(73, 125, 189)),
     color-stop(0.86, rgba(118, 116, 255, 0.705))
   );
