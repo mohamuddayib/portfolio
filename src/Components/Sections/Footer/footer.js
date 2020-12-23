@@ -9,7 +9,7 @@ import { mdiEmailOutline } from "@mdi/js";
 import { mdiMapMarker } from "@mdi/js";
 import { mdiPhoneOutline } from "@mdi/js";
 import { Link } from "react-scroll";
-import FooterLogo from './FooterLogo.webp';
+import FooterLogo from './FooterLogo.png';
 
 const Footer = () => {
   return (
