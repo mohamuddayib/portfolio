@@ -8,6 +8,7 @@ import { mdiFacebook } from "@mdi/js";
 import { mdiTwitter } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
 import { Link } from "react-scroll";
+import LangSwitcher from "../Sections/Langswitcher/Switcher";
 
 
 class Nav extends Component {
@@ -126,7 +127,7 @@ class Nav extends Component {
             </li>
           </ul>
         </nav>
-       
+       <LangSwitcher/>
         <div className="language-container">
             <span></span>
             </div>

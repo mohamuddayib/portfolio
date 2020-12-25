@@ -90,6 +90,10 @@ header nav {
   .toggle-scroll div {
     background: linear-gradient(135deg, rgb(255, 78, 111) 0%, rgb(251, 145, 104) 100%) !important;
   }
+  .switcher{
+    margin-left: auto;
+    margin-right: -150px !important;
+  }
 }
 
 .scrolled {
@@ -127,16 +131,40 @@ header nav {
   color: #fe606d !important;
 }
 
-.language-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffff;
-  margin-left: 10px;
+/*style  language switcher*/
+
+.switcher{
+  margin-left: auto;
+  margin-right: -380px;
 }
-.language-container img{
-  height: 18px;
-  width: 25px;
-  border-radius: 3px;
-  margin-left: 10px;
+
+
+.MuiButton-label{
+  color: #fff ;
+  font-family: poppins;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+}
+.MuiButton-label svg{
+  margin-right: 10px;
+  fill: #ffff;
+}
+
+.scrolled  .MuiButton-label svg{
+  fill: #2e2e2e77 !important;
+}
+
+.switcher-link{
+  margin-top: 45px;
+}
+.switcher-link a{
+  text-decoration: none;
+  color: #777777;
+  font-family: poppins;
+  height: 100%;
+  width: 100%;
+}
+.scrolled .MuiButton-label{
+  color: #777777;
 }

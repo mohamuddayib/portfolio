@@ -15,3 +15,28 @@
   background-color: #fbfcff;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  z-index: 10000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius:10px;
+  z-index: 10000;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(135deg, rgba(253, 160, 133, 0.72) 0%, rgba(246, 211, 101, 0.72) 100%);
+  border-radius: 10px;
+  z-index: 10000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  z-index: 10000;
+}
+
+
