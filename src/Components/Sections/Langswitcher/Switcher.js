@@ -35,7 +35,7 @@ export default function SimpleMenu() {
       >
         <MenuItem onClick={handleClose}><a href="https://www.mohamud.dev/">English - Default</a></MenuItem>
         <MenuItem onClick={handleClose}><a href="https://so.mohamud.dev/">Somali </a></MenuItem>
-        <MenuItem onClick={handleClose}><a href="#">Arabic</a></MenuItem>
+        <MenuItem onClick={handleClose}><a href="https://www.mohamud.dev/">Arabic</a></MenuItem>
       </Menu>
     </div>
   );
