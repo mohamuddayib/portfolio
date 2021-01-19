@@ -1,164 +1,120 @@
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 .portfolio__labels {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto 5px;
-  width: 50%;
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  width: 400px;
 }
 
 .portfolio__labels span {
+  text-transform: uppercase;
   font-weight: bold;
-  color: #6d6d6d;
-  font-size: 0.8em;
+  color: #333;
   cursor: pointer;
-  background-color: #ffff;
-  padding: 10px 30px;
-  border: 1px solid #cccc;
-  border-radius: 5px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
+.portfolio__labels span:hover {
+  color: #7926ff;
+  transition: all 0.4s ease-in;
+}
+
 .portfolio__container {
-  display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 200px;
-  justify-content: center;
-  grid-gap: 20px;
-  margin: 20px auto 0;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
-.portfolio__container div:not(.buttons) {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+.portfolio__container > span {
+  border: 1px solid rgba(17, 12, 46, 0.15);
   padding: 5px;
+  height: 240px;
+  width: 390px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  /* text-indent: -9999px; */
   border-radius: 4px;
-}
-.Propect .referenceApp,
-.webagency,
-.HappyNewYear,
-.saas {
-  position: relative;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  position: relative;
 }
-.referenceApp {
-  background-image: url(./Reference.webp);
+
+.portfolio_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.filterable_div {
+  display: flex;
+  justify-content: center;
+}
+
+/* projects pictures*/
+.jabiclc {
+  background-image: url(./jabiclc.webp);
 }
 .webagency {
   background-image: url(./webagency.webp);
-  background-position: left !important;
 }
-.HappyNewYear {
-  background-image: url(./docs-app.webp);
+.israqdocs {
+  background-image: url(./ishraqdocs.webp);
 }
-.saas {
-  background-image: url(./covid-19.webp);
+.molfr {
+  background-image: url(./molf.webp);
+}
+.weedsan {
+  background-image: url(./weedsan.webp);
+}
+.BMI_calculator {
+  background-image: url(./Bmi.webp);
 }
 
-.Propect .buttons {
+/* overlay */
+.overlay_animation {
+  background-image: linear-gradient(-20deg, rgba(185, 33, 255, 0.856) 0%, rgba(33, 213, 253, 0.842) 100%);
   position: absolute;
   bottom: 0;
-  right: 0;
   left: 0;
-  height: 0%;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(65, 31, 255, 0.836),
-    rgba(93, 75, 255, 0.897)
-  );
-  border-radius: 0 0 4px 4px;
-  overflow: hidden;
-}
-.Propect .buttons h4 {
-  text-align: center;
-  color: #ffff;
-}
-.Propect .buttons section {
+  right: 0;
+  width: 100%;
+  height: 1%;
+  visibility: hidden;
   display: flex;
-  justify-content: space-around;
-}
-.Propect .buttons section a {
-  padding: 5px 20px;
-  background-color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  color: #333333;
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-.Propect .buttons section a svg {
-  margin-right: 5px;
-}
-.Propect .referenceApp:hover .buttons {
-  height: 55% !important;
-  transition: all 0.5s ease;
-}
-.Propect .webagency:hover .buttons {
-  height: 55% !important;
-  transition: all 0.5s ease;
-}
-.Propect .HappyNewYear:hover .buttons {
-  height: 55% !important;
-  transition: all 0.5s ease;
-}
-.Propect .saas:hover .buttons {
-  height: 55% !important;
-  transition: all 0.5s ease;
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+ color: #fff;
+ font-size: 19px;
 }
 
-@media only screen and (max-width: 1024px) {
-  .portfolio__container {
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 200px 200px;
-  }
-  .portfolio__labels {
-    flex-wrap: wrap;
-  }
-  .portfolio__labels {
-    width: 85%;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-  }
-  .portfolio__labels span {
-    padding: 8px 15px;
-  }
+.portfolio__container > span:hover .overlay_animation{
+  height: 30%;
+  transition: all 0.5s ease;
+  visibility:visible;
 }
 
-@media only screen and (max-width: 670px) {
-  .portfolio__container {
-    grid-template-columns: 300px;
-    grid-template-rows: 200px 200px 200px 200px;
-  }
-  .portfolio__labels {
-    width: 85%;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-  }
-  .portfolio__labels span {
-    padding: 8px 15px;
-  }
+.overlay_animation span a{
+  margin-left: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px 3px 2px 3px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media only screen and (max-width: 425px) {
-  .portfolio__labels {
-    width: 90%;
-    justify-content: space-evenly;
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-  .portfolio__labels span {
-    padding: 8px 13px;
-    margin-right: 0;
-  }
-  .portfolio__container {
-    grid-template-columns: 360px;
-    grid-template-rows: 230px 230px 230px 230px;
-  }
+.overlay_animation span:nth-child(2){
+  display: flex;
+  justify-content:center ;
 }
