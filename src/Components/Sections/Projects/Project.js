@@ -15,7 +15,7 @@ const portfolio = [
         <span><a href="https://jabiclc.com/"><Icon path={mdiWeb} color="#7D5AF8" size={1} /></a></span>
       </span>
     ),
-    category: ["all", "frontend", "ux-ui"],
+    category: ["all", "frontend"],
   },
   {
     name: "My favorite case",
@@ -26,7 +26,7 @@ const portfolio = [
         <span><a href="https://github.com/mohmuddev/WebAgency"><Icon path={mdiGithubCircle} color="#7D5AF8" size={1} /></a> <a href="https://digitalagency.mohamud.dev/"><Icon path={mdiWeb} color="#7D5AF8" size={1} /></a></span>
       </span>
     ),
-    category: ["all", "mobile", "ux-ui"]
+    category: ["all", "mobile"]
   },
   {
     name: "A old job",
@@ -37,7 +37,7 @@ const portfolio = [
         <span><a href="https://github.com/mohmuddev/ishraq-docs"><Icon path={mdiGithubCircle} color="#7D5AF8" size={1} /></a> <a href="https://ishraq-docs.netlify.app"><Icon path={mdiWeb} color="#7D5AF8" size={1} /></a></span>
       </span>
     ),
-    category: ["all", "frontend"]
+    category: ["all", "mobile"]
   },
   {
     name: "It is a really cool website",
@@ -48,7 +48,7 @@ const portfolio = [
         <span> <a href="https://molfr.so/"><Icon path={mdiWeb} color="#7D5AF8" size={1} /></a></span>
       </span>
     ),
-    category: ["all", "frontend", "ux-ui"]
+    category: ["all", "frontend"]
   },
   {
     name: "Something more",
@@ -59,7 +59,7 @@ const portfolio = [
         <span><a href="https://www.weedhsan.news/"><Icon path={mdiWeb} color="#7D5AF8" size={1} /></a></span>
       </span>
     ),
-    category: ["all", "others"]
+    category:["all", "frontend"]
   },
   
   {
@@ -71,7 +71,7 @@ const portfolio = [
         <span><a href="https://mohmuddev.github.io/bmi/"><Icon path={mdiGithubCircle} color="#7D5AF8" size={1} /></a> <a href="https://github.com/mohmuddev/bmi"><Icon path={mdiWeb} color="#7D5AF8" size={1} /></a></span>
       </span>
     ),
-    category: ["all", "others"]
+    category: ["all", "mobile"]
   }
 ];
 
@@ -111,26 +111,26 @@ function Project() {
           active={filter === "frontend"}
           onClick={() => setFilter("frontend")}
         >
-          Frontend
+          Clients
         </span>
         <span
           active={filter === "mobile"}
           onClick={() => setFilter("mobile")}
         >
-          Mobile
+          My Projects
         </span>
         <span
           active={filter === "ux-ui"}
           onClick={() => setFilter("ux-ui")}
         >
-          UX/UI
+           UX/UI
         </span>
         <span
          
           active={filter === "others"}
           onClick={() => setFilter("others")}
         >
-          Others
+          Other
           </span>
       </div>
       </div>
