@@ -14,7 +14,7 @@ const About = () => {
           <img src={Me} alt="mohamud" />
         </div>
         <div className="about-content">
-          <h3>Mohamud Ali</h3>
+          <h3>Mohamud Farah</h3>
           <p className="position">Web developer and designer</p>
           <p>
             I'm Mohamud, I'm a web developer and designer based in Kismayo,
